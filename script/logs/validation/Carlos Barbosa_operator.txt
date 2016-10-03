@@ -1,0 +1,51 @@
+[2011/01/16 - 13:57] - validation of Person: Manuel Pinho
+[2011/01/16 - 13:58] - validation of Organization: Economia
+[2011/01/16 - 13:59] - validation of Role: ex-ministro da Economia
+[2011/01/16 - 14:01] - validation of Person: Ana Jorge
+[2011/01/16 - 14:04] - validation of Role: responsável do SEP comentava declarações da ministra da Saúde
+[2011/01/16 - 14:05] - validation of Organization: Saúde
+[2011/01/16 - 14:06] - validation of Person: Francisco George
+[2011/01/16 - 14:06] - validation of Organization: Saúde
+[2011/01/16 - 14:06] - validation of Role: Director-Geral da Saúde
+[2011/01/16 - 14:07] - validation of Person: Francisco Assis
+[2011/01/16 - 14:20] - validation of Person: Vítor Constâncio
+[2011/01/16 - 14:22] - validation of Person: Carlos Barbosa
+[2011/01/16 - 14:22] - validation of Role: presidente do Automóvel Clube de Portugal
+[2011/01/16 - 14:25] - validation of Person: Francisco Lopes
+[2011/01/16 - 14:25] - validation of Role: candidato presidencial do PCP
+[2011/01/16 - 14:26] - validation of Person: Júlio Magalhães
+[2011/01/16 - 14:26] - validation of Role: director de informação da TVI
+[2011/01/16 - 14:27] - validation of Role: director de informação da TVI
+[2011/01/16 - 14:28] - validation of Person: Fernando Seara
+[2011/01/16 - 14:30] - validation of Person: Alberto Costa
+[2011/01/16 - 14:31] - validation of Role: ministro da Justiça
+[2011/01/16 - 14:32] - validation of Organization: justiça
+[2011/01/16 - 14:34] - validation of Person: José Manuel Coelho
+[2011/01/16 - 14:34] - validation of Role: deputado do PND na Assembleia Regional
+[2011/01/16 - 14:35] - validation of Organization: PND na Assembleia Regional
+[2011/01/16 - 14:36] - validation of Person: Raúl Castro
+[2011/01/16 - 14:36] - validation of Role: presidente cubano
+[2011/01/16 - 14:38] - validation of Person: Nicolas Sarkozy
+[2011/01/16 - 14:38] - validation of Person: Ronaldinho
+[2011/01/16 - 14:40] - validation of Person: Jean Claude Trichet
+[2011/01/16 - 14:40] - validation of Role: líder do Banco Central Europeu
+[2011/01/16 - 14:40] - validation of Organization: Banco Central Europeu
+[2011/01/16 - 14:43] - validation of Person: Reggie Bush
+[2011/01/16 - 14:44] - validation of Role: jogador de futebol americano
+[2011/01/16 - 14:44] - validation of Organization: futebol americano
+[2011/01/16 - 14:48] - validation of Person: Aaron Sorkin
+[2011/01/16 - 14:48] - validation of Role: argumentista do filme
+[2011/01/16 - 14:48] - validation of Organization: filme
+[2011/01/16 - 14:49] - validation of Person: Abdoulaye Wade
+[2011/01/16 - 14:49] - validation of Role: Presidente do Senegal
+[2011/01/16 - 14:50] - validation of Organization: Senegal
+[2011/01/16 - 14:50] - validation of Person: Gerard Piqué
+[2011/01/16 - 14:50] - validation of Role: defesa do Barcelona
+[2011/01/16 - 14:51] - validation of Organization: Barcelona
+[2011/01/16 - 14:51] - validation of Person: Joan Laporta
+[2011/01/16 - 14:52] - validation of Role: presidente do Barcelona
+[2011/01/16 - 14:53] - validation of Person: Dani Alves
+[2011/01/16 - 14:53] - validation of Role: lateral do Barcelona
+[2011/01/16 - 14:53] - validation of Organization: Barcelona
+[2011/01/16 - 14:54] - validation of Person: Clarence Seedorf
+[2011/01/16 - 14:54] - validation of Role: médio do AC Milan

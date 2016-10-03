@@ -1,0 +1,41 @@
+[2011/01/16 - 21:06] - validation of Organization: Cristiano Ronaldo
+[2011/01/16 - 21:24] - validation of Person: Vasco da Gama
+[2011/01/16 - 21:30] - validation of Person: Manuel Alvarez
+[2011/01/16 - 21:31] - validation of Organization: Remax Portugal
+[2011/01/16 - 21:31] - validation of Role: fundador e presidente da Remax Portugal
+[2011/01/16 - 21:35] - validation of Person: Pepe
+[2011/01/16 - 21:35] - validation of Role: jogador da seleção portuguesa
+[2011/01/16 - 21:36] - validation of Organization: seleção portuguesa
+[2011/01/16 - 21:37] - validation of Person: Joseph Blatter
+[2011/01/16 - 21:38] - validation of Role: presidente da FIFA
+[2011/01/16 - 21:45] - validation of Person: Jorge Cruz
+[2011/01/16 - 21:50] - validation of Person: Baltazar
+[2011/01/16 - 21:51] - validation of Role: advogado do pai
+[2011/01/16 - 21:52] - validation of Person: Luís Filipe
+[2011/01/16 - 21:53] - validation of Role: presidente angolano
+[2011/01/16 - 21:57] - validation of Person: Paulo Afonso
+[2011/01/16 - 21:58] - validation of Organization: Marcel
+[2011/01/16 - 21:58] - validation of Role: agente de Marcel
+[2011/01/16 - 22:00] - validation of Person: Raul Meireles
+[2011/01/16 - 22:01] - validation of Role: médio do FC Porto
+[2011/01/16 - 22:04] - validation of Role: jornalista e comentador de Política Nacional
+[2011/01/16 - 22:04] - validation of Organization: Política Nacional
+[2011/01/16 - 22:05] - validation of Person: Mário Bettencourt Resendes
+[2011/01/16 - 22:07] - validation of Person: Mike Reavey
+[2011/01/16 - 22:07] - validation of Role: director da divisão de segurança da Microsoft
+[2011/01/16 - 22:12] - validation of Person: Robert Gates
+[2011/01/16 - 22:12] - validation of Role: ministro brasileiro da Defesa
+[2011/01/16 - 22:14] - validation of Person: Scott Charney
+[2011/01/16 - 22:14] - validation of Role: chefe de segurança da Microsoft
+[2011/01/16 - 22:15] - validation of Person: Eric Schmidt
+[2011/01/16 - 22:16] - validation of Role: presidente-executivo da Google
+[2011/01/16 - 22:16] - validation of Person: Patrick Pichette
+[2011/01/16 - 22:16] - validation of Role: vice-presidente financeiro do Google
+[2011/01/16 - 22:17] - validation of Person: David Drummond
+[2011/01/16 - 22:17] - validation of Role: director jurídico da Google
+[2011/01/16 - 22:18] - validation of Person: Kay Oberbeck
+[2011/01/16 - 22:18] - validation of Role: porta-voz do Google
+[2011/01/16 - 22:19] - validation of Person: Andy Rubin
+[2011/01/16 - 22:19] - validation of Role: vice-presidente de engenharia da Google
+[2011/01/16 - 22:20] - validation of Person: Frank Lampard
+[2011/01/16 - 22:20] - validation of Role: médio inglês do Chelsea

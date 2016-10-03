@@ -1,0 +1,86 @@
+[2011/01/15 - 17:03] - validation of Person: José Sócrates
+[2011/01/15 - 17:52] - validation of Role: secretário-geral do PS
+[2011/01/15 - 18:45] - validation of Person: Cavaco Silva
+[2011/01/15 - 19:36] - validation of Person: José Azeredo Lopes
+[2011/01/15 - 19:36] - validation of Role: presidente da ERC
+[2011/01/15 - 19:36] - validation of Person: Lula da Silva
+[2011/01/15 - 19:37] - validation of Role: Presidente brasileiro
+[2011/01/15 - 19:37] - validation of Person: Luis Filipe Vieira
+[2011/01/15 - 19:39] - validation of Person: Luís Filipe Menezes
+[2011/01/15 - 19:39] - validation of Role: presidente da Câmara
+[2011/01/15 - 20:28] - validation of Person: Rui Rio
+[2011/01/15 - 20:29] - validation of Person: Alberto João Jardim
+[2011/01/15 - 20:31] - validation of Person: Pedro Passos Coelho
+[2011/01/15 - 20:32] - validation of Role: presidente do PSD
+[2011/01/15 - 20:40] - validation of Person: Jerónimo de Sousa
+[2011/01/15 - 20:41] - validation of Role: Secretário Geral do PCP
+[2011/01/15 - 20:41] - validation of Person: Pinto da Costa
+[2011/01/16 - 13:19] - validation of Person: Osama bin Laden
+[2011/01/16 - 13:19] - validation of Role: líder da Al-Qaida
+[2011/01/16 - 13:19] - validation of Organization: Al-Qaida
+[2011/01/16 - 13:21] - validation of Person: António de Oliveira Salazar
+[2011/01/16 - 13:21] - validation of Role: chefe do Governo
+[2011/01/16 - 13:22] - validation of Organization: governo
+[2011/01/16 - 13:22] - validation of Person: Angela Merkel
+[2011/01/16 - 13:23] - validation of Person: Angela Merkel
+[2011/01/16 - 13:23] - validation of Role: chanceler alemã
+[2011/01/16 - 13:24] - validation of Person: Rui Rio
+[2011/01/16 - 13:33] - validation of Person: Barack Obama
+[2011/01/16 - 13:40] - validation of Person: Francisco Louça
+[2011/01/16 - 13:40] - validation of Role: coordenador do Bloco de Esquerda
+[2011/01/16 - 13:41] - validation of Person: José Eduardo Bettencourt
+[2011/01/16 - 14:20] - validation of Person: José Luis Rodríguez Zapatero
+[2011/01/16 - 14:22] - validation of Role: primeiro-ministro espanhol
+[2011/01/16 - 14:24] - validation of Person: Aníbal Cavaco Silva
+[2011/01/16 - 14:24] - validation of Role: chefe de Estado português
+[2011/01/16 - 14:24] - validation of Organization: Estado português
+[2011/01/16 - 14:24] - validation of Role: chefe de Estado português
+[2011/01/16 - 14:25] - validation of Person: Paulo Portas
+[2011/01/16 - 14:26] - validation of Role: líder do CDS-PP
+[2011/01/16 - 14:27] - validation of Person: Carlos Azevedo
+[2011/01/16 - 14:27] - validation of Person: Carlos Azevedo
+[2011/01/16 - 14:28] - validation of Role: bispo auxiliar de Lisboa
+[2011/01/16 - 14:28] - validation of Person: Durão Barroso
+[2011/01/16 - 14:29] - validation of Role: presidente da Comissão Europeia
+[2011/01/16 - 14:29] - validation of Organization: Comissão Europeia
+[2011/01/16 - 14:29] - validation of Person: Bagão Félix
+[2011/01/16 - 14:30] - validation of Role: ex-ministro da tutela
+[2011/01/16 - 14:30] - validation of Person: António Bagão Félix
+[2011/01/16 - 14:30] - validation of Role: economista e ex-ministro das Finanças
+[2011/01/16 - 14:30] - validation of Organization: Finanças
+[2011/01/16 - 14:32] - validation of Person: Fernando Rocha
+[2011/01/16 - 14:33] - validation of Person: Miguel Portas
+[2011/01/16 - 14:34] - validation of Role: cabeça-de-lista do BE às eleições europeias
+[2011/01/16 - 14:35] - validation of Person: Bill Gates
+[2011/01/16 - 14:36] - validation of Role: fundador da Microsoft
+[2011/01/16 - 14:36] - validation of Organization: Microsoft
+[2011/01/16 - 14:38] - validation of Person: Julian Assange
+[2011/01/16 - 14:38] - validation of Person: Julian Assange
+[2011/01/16 - 14:39] - validation of Role: fundador do WikiLeaks
+[2011/01/16 - 14:39] - validation of Organization: WikiLeaks
+[2011/01/16 - 14:40] - validation of Person: David Cameron
+[2011/01/16 - 14:44] - validation of Person: Michel Platini
+[2011/01/16 - 14:44] - validation of Role: presidente da UEFa
+[2011/01/16 - 14:45] - validation of Person: Arnold Schwarzenegger
+[2011/01/16 - 14:45] - validation of Role: governador da Califórnia
+[2011/01/16 - 14:45] - validation of Organization: Califórnia
+[2011/01/16 - 14:47] - validation of Person: Mark Zuckerberg
+[2011/01/16 - 14:47] - validation of Role: fundador e diretor geral do Facebook
+[2011/01/16 - 14:47] - validation of Organization: Facebook
+[2011/01/16 - 14:48] - validation of Person: Hugo Chávez
+[2011/01/16 - 14:49] - validation of Person: Lionel Messi
+[2011/01/16 - 14:49] - validation of Role: jogador do Barcelona
+[2011/01/16 - 14:50] - validation of Person: Bento XVI
+[2011/01/16 - 14:51] - validation of Role: chefe da Igreja Católica Romana
+[2011/01/16 - 14:51] - validation of Organization: Igreja Católica Romana
+[2011/01/16 - 14:51] - validation of Person: Franz Beckenbauer
+[2011/01/16 - 14:52] - validation of Role: presidente honorário do Bayern
+[2011/01/16 - 14:52] - validation of Organization: Bayern
+[2011/01/16 - 14:52] - validation of Person: Fidel Castro
+[2011/01/16 - 14:53] - validation of Role: fundador do regime comunista cubano
+[2011/01/16 - 14:53] - validation of Organization: regime comunista cubano
+[2011/01/16 - 14:54] - validation of Person: Roman Abramovich
+[2011/01/16 - 14:54] - validation of Role: presidente do clube inglês
+[2011/02/07 - 08:40] - validation of Person: José Mourinho
+[2011/02/11 - 03:11] - validation of Person: José Mourinho
+[2011/03/30 - 19:50] - validation of Organization: Microsoft

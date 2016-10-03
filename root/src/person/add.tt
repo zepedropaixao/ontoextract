@@ -1,0 +1,99 @@
+<table>
+	<tr>
+		<td style="vertical-align:middle"> <h2>OntoExtract > Person > Add Person</h2> </td>
+	</tr>
+</table>
+<!-- [% IF err %][% err %][% END %] -->
+
+<form action="[% c.uri_for(c.controller('Person').action_for('add')) %]" method="post">
+<table id="form-style">
+<tr><th width="18%"></th><th width="80%">Insert Values</th><th width="2%">Valid</th></tr>
+[% FOREACH col = person_rs.result_source.columns %]
+[% IF !col.match('_valid') && col!='id_person' && col!='lastmodified' && col!='type' %]
+[% IF col=='birthday' || col=='deathday' %]
+<tr>
+<th>[% col %]</th>
+<td>
+
+
+<input type="text" name="[% col %]" id="[% col %]" value="" readonly="true" />
+  <script>
+      mCal = new dhtmlxCalendarObject("[% col %]",false,{isYearEditable: true});   
+      mCal.draw();
+  </script>
+
+</td>
+<td>
+[% list = [col, 'valid'] %]
+[% valid_elem = list.join('_') %]
+<input type="checkbox" name="[% valid_elem %]">
+</td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+
+</tr>
+[% ELSE %]
+
+
+[% IF col=='sex' %]
+<tr>
+<th>[% col %]</th>
+<td><div>
+<select name="sex">
+<option value="u"></option>
+<option value="m">Masculino</option>
+<option value="f">Feminino</option>
+</select></div>
+</td>
+<td>
+[% list = [col, 'valid'] %]
+[% valid_elem = list.join('_') %]
+<input type="checkbox" name="[% valid_elem %]">
+</td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% ELSE %]
+[% IF col=='incompleteflag' %]
+<tr>
+<th>[% col %]</th>
+<td><div>
+<select name="incompleteflag">
+<option value="u"></option>
+<option value="t">Perfil Incompleto</option>
+<option value="f">Perfil Completo</option>
+</select></div>
+</td><td></td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% ELSE %]
+<tr>
+<th>[% col %]</th>
+<td><input type="text" name="[% col %]" /></td>
+[% IF col!='notes' %]
+
+<td>
+[% list = [col, 'valid'] %]
+[% valid_elem = list.join('_') %]
+<input type="checkbox" name="[% valid_elem %]">
+</td>
+[% ELSE %]
+<td></td>
+[% END %]
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% END %]
+[% END %]
+[% END %]
+[% END %]
+[% END %]
+<tr><th></th><th><input type="submit" value="Create"/></th><th></th></tr>
+</table>
+</form>
+

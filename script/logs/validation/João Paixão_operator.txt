@@ -1,0 +1,57 @@
+[2011/01/15 - 04:34] - validation of Person: Bagão Félix
+[2011/01/15 - 04:35] - validation of Person: Bagão Félix
+[2011/01/15 - 04:36] - validation of Person: José Azeredo Lopes
+[2011/01/15 - 04:37] - validation of Role: presidente da ERC
+[2011/01/15 - 04:43] - validation of Person: José Sócrates
+[2011/01/15 - 04:44] - validation of Organization: primeiro ministro português
+[2011/01/15 - 04:46] - validation of Person: Aníbal Cavaco Silva
+[2011/01/15 - 04:48] - validation of Role: Chefe de Estado
+[2011/01/15 - 04:49] - validation of Organization: Estado
+[2011/01/15 - 04:49] - validation of Person: Manuela Ferreira Leite
+[2011/01/15 - 04:50] - validation of Person: Manuela Ferreira Leite
+[2011/01/15 - 04:51] - validation of Person: Paulo Portas
+[2011/01/15 - 04:52] - validation of Role: líder do CDS
+[2011/01/15 - 04:53] - validation of Person: Carlos Azevedo
+[2011/01/15 - 04:55] - validation of Role: Bispo Auxiliar de Lisboa
+[2011/01/15 - 04:56] - validation of Person: Durão Barroso
+[2011/01/15 - 04:57] - validation of Role: Presidente da Comissão Europeia
+[2011/01/15 - 04:57] - validation of Organization: Comissão Europeia
+[2011/01/15 - 04:57] - validation of Person: Bagão Félix
+[2011/01/15 - 04:59] - validation of Role: ex-ministro da tutela
+[2011/01/15 - 04:59] - validation of Person: José Azeredo Lopes
+[2011/01/15 - 05:00] - validation of Role: presidente da ERC
+[2011/01/15 - 05:00] - validation of Person: Fernando Rocha
+[2011/01/15 - 05:01] - validation of Person: Fernando Rocha
+[2011/01/15 - 05:02] - validation of Person: Miguel Portas
+[2011/01/15 - 05:07] - validation of Person: Vladimir Putin
+[2011/01/15 - 05:08] - validation of Person: Vladimir Putin
+[2011/01/15 - 05:09] - validation of Role: primeiro-ministro
+[2011/01/15 - 05:09] - validation of Person: Bill Gates
+[2011/01/15 - 05:09] - validation of Role: fundador da Microsoft
+[2011/01/15 - 05:10] - validation of Organization: Microsoft
+[2011/01/15 - 05:10] - validation of Person: Julian Assange
+[2011/01/15 - 05:10] - validation of Role: fundador do WikiLeaks
+[2011/01/15 - 05:11] - validation of Organization: WikiLeaks
+[2011/01/15 - 05:14] - validation of Person: David Cameron
+[2011/01/15 - 05:15] - validation of Organization: partido conservador
+[2011/01/15 - 05:15] - validation of Organization: partido conservador
+[2011/01/15 - 05:16] - validation of Person: Silvio Berlusconi
+[2011/01/15 - 05:17] - validation of Role: primeiro-ministro
+[2011/01/15 - 05:17] - validation of Role: presidente do Milan
+[2011/01/15 - 05:17] - validation of Organization: AC Milan
+[2011/01/15 - 05:19] - validation of Person: Osama bin Laden
+[2011/01/15 - 05:19] - validation of Organization: Al-Qaida
+[2011/01/15 - 05:20] - validation of Role: líder da Al-Qaida
+[2011/01/15 - 05:21] - validation of Person: Lula da Silva
+[2011/01/15 - 05:21] - validation of Role: Presidente brasileiro
+[2011/01/15 - 05:21] - validation of Organization: Estado brasileiro
+[2011/01/15 - 05:22] - validation of Role: chefe de Estado brasileiro
+[2011/01/15 - 05:23] - validation of Person: Barack Obama
+[2011/01/15 - 05:23] - validation of Role: Presidente da República
+[2011/01/15 - 05:24] - validation of Organization: Estados Unidos
+[2011/01/15 - 05:25] - validation of Person: Bill Clinton
+[2011/01/15 - 05:27] - validation of Role: coordenador da missão no Haiti
+[2011/01/15 - 05:27] - validation of Role: ex-Presidente dos EUA
+[2011/01/15 - 05:27] - validation of Organization: ajuda internacional para o Haiti
+[2011/01/15 - 05:31] - validation of Person: Michel Platini
+[2011/01/15 - 05:31] - validation of Role: presidente da UEFA

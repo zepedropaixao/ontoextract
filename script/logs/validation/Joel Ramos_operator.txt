@@ -1,0 +1,44 @@
+[2011/01/16 - 20:59] - validation of Person: Noel Gallagher
+[2011/01/16 - 21:00] - validation of Organization: Oasis
+[2011/01/16 - 21:01] - validation of Role: principal compositor e guitarrista dos Oasis
+[2011/01/16 - 21:03] - validation of Person: Robert Mugabe
+[2011/01/16 - 21:04] - validation of Role: Presidente da República
+[2011/01/16 - 21:06] - validation of Person: Marat Izmailov
+[2011/01/16 - 21:07] - validation of Role: médio russo do Sporting
+[2011/01/16 - 21:08] - validation of Person: Vladimir Vuckcevic
+[2011/01/16 - 21:09] - validation of Role: procurador sérvio para os crimes de guerra
+[2011/01/16 - 21:11] - validation of Person: Rodolfo Vaz
+[2011/01/16 - 21:11] - validation of Role: director desportivo do UD Leiria
+[2011/01/16 - 21:12] - validation of Organization: UD Leiria
+[2011/01/16 - 21:15] - validation of Person: Polga
+[2011/01/16 - 21:15] - validation of Person: Matias Fernandez
+[2011/01/16 - 21:16] - validation of Role: médio do Sporting
+[2011/01/16 - 21:17] - validation of Person: Valdés
+[2011/01/16 - 21:17] - validation of Role: guarda-redes do
+[2011/01/16 - 21:18] - validation of Organization: Barca
+[2011/01/16 - 21:19] - validation of Person: Ricardo Quaresma
+[2011/01/16 - 21:19] - validation of Role: futebolista português
+[2011/01/16 - 21:20] - validation of Person: Ferreira de Oliveira
+[2011/01/16 - 21:20] - validation of Role: presidente-executivo da Galp Energia
+[2011/01/16 - 21:21] - validation of Organization: Galp Energia
+[2011/01/16 - 21:22] - validation of Person: Manuel Vilarinho
+[2011/01/16 - 21:24] - validation of Role: presidente da Assembleia-Geral do Benfica
+[2011/01/16 - 21:26] - validation of Person: Dias Ferreira
+[2011/01/16 - 21:26] - validation of Role: presidente da mesa da assembleia-geral do Sporting
+[2011/01/16 - 21:30] - validation of Person: Maxwell Mkwezalamba
+[2011/01/16 - 21:31] - validation of Role: comissário da UA para os Assuntos Económicos
+[2011/01/16 - 21:33] - validation of Person: Chris Martin
+[2011/01/16 - 21:36] - validation of Person: Isabel Damasceno
+[2011/01/16 - 21:36] - validation of Role: presidente da Câmara de Leiria
+[2011/01/16 - 21:37] - validation of Organization: Leiria
+[2011/01/16 - 21:39] - validation of Person: Carlos Costa
+[2011/01/16 - 21:39] - validation of Role: governador do Banco de Portugal
+[2011/01/16 - 21:40] - validation of Person: Luciano Vilhena Pereira
+[2011/01/16 - 21:41] - validation of Role: presidente do IVDP
+[2011/01/16 - 21:44] - validation of Person: Wesley Sneijder
+[2011/01/16 - 21:44] - validation of Role: médio internacional holandês do Inter
+[2011/01/16 - 21:45] - validation of Organization: Inter
+[2011/01/16 - 21:45] - validation of Person: Francesco Toldo
+[2011/01/16 - 21:46] - validation of Role: guarda-redes do Inter
+[2011/01/16 - 21:46] - validation of Person: Kaká
+[2011/01/16 - 21:48] - validation of Person: Arjen Robben

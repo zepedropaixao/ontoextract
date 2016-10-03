@@ -1,0 +1,47 @@
+[2011/01/18 - 11:44] - validation of Person: Defensor de Moura
+[2011/01/18 - 11:44] - validation of Role: deputado socialista e candidato presidencial
+[2011/01/18 - 11:49] - validation of Person: Luís Villas-Boas
+[2011/01/18 - 11:49] - validation of Role: responsável pelo Refúgio Amboim Ascensão
+[2011/01/18 - 11:51] - validation of Person: Bernardo Mota
+[2011/01/18 - 11:53] - validation of Role: treinador do atual número um português
+[2011/01/18 - 11:59] - validation of Role: presidente da comissão parlamentar de Defesa
+[2011/01/18 - 11:59] - validation of Person: José Luís Arnaut
+[2011/01/18 - 12:02] - validation of Person: Mário Moutinho
+[2011/01/18 - 12:03] - validation of Role: director
+[2011/01/18 - 12:03] - validation of Organization: FITEI
+[2011/01/18 - 12:04] - validation of Role: treinador do atual número um português
+[2011/01/18 - 12:06] - validation of Role: secretária de Estado dos Transportes
+[2011/01/18 - 12:07] - validation of Person: Ana Paula Vitorino
+[2011/01/18 - 12:08] - validation of Person: Marcelo Rebelo de Sousa
+[2011/01/18 - 12:08] - validation of Role: ex-presidente do PSD
+[2011/01/18 - 12:14] - validation of Role: chefe de gabinete do ministro da Administração Interna
+[2011/01/18 - 12:15] - validation of Person: António Coelho dos Santos
+[2011/01/18 - 12:20] - validation of Person: Catarina Vaz Pinto
+[2011/01/18 - 12:21] - validation of Person: José Miguel Medeiros
+[2011/01/18 - 12:22] - validation of Role: secretário de Estado da Protecção Civil
+[2011/01/18 - 12:22] - validation of Organization: Protecção Civil
+[2011/01/18 - 12:32] - validation of Person: Péron
+[2011/01/18 - 12:35] - validation of Person: Sarah Goldfinger
+[2011/01/18 - 12:35] - validation of Role: guionista e produtora executiva de CSI Las Vegas
+[2011/01/18 - 12:35] - validation of Organization: CSI Las Vegas
+[2011/01/18 - 12:38] - validation of Person: Oliver Stone
+[2011/01/18 - 12:38] - validation of Role: realizador de cinema norte-americano
+[2011/01/18 - 12:39] - validation of Organization: cinema norte-americano
+[2011/01/18 - 12:41] - validation of Person: Arnold Shwarzenegger
+[2011/01/18 - 12:41] - validation of Role: actor e governador da Califórnia
+[2011/01/18 - 12:45] - validation of Person: José Luís Zapatero
+[2011/01/18 - 12:46] - validation of Role: chefe do Governo de Espanha
+[2011/01/18 - 12:51] - validation of Person: Steve Dowling
+[2011/01/18 - 12:51] - validation of Role: porta-voz da Apple
+[2011/01/18 - 12:51] - validation of Organization: Apple
+[2011/01/18 - 12:53] - validation of Organization: Google Books
+[2011/01/18 - 12:53] - validation of Role: director do Google Books
+[2011/01/18 - 12:53] - validation of Person: Daniel Clancy
+[2011/01/18 - 12:56] - validation of Person: Gianfranco Zola
+[2011/01/18 - 12:57] - validation of Person: Fabio Capello
+[2011/01/18 - 12:57] - validation of Role: seleccionador da Inglaterra
+[2011/01/18 - 12:58] - validation of Person: Paul Robinson
+[2011/01/18 - 12:59] - validation of Role: guarda-redes da seleção de Inglaterra
+[2011/01/18 - 13:01] - validation of Person: Allan McGregor
+[2011/01/18 - 13:01] - validation of Role: guarda-redes do Rangers
+[2011/01/18 - 13:01] - validation of Organization: Rangers

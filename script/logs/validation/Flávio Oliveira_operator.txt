@@ -1,0 +1,11 @@
+[2011/01/15 - 17:40] - validation of Role: comandante distrital de operações de socorro
+[2011/01/15 - 17:46] - validation of Person: Fabio Coentrão
+[2011/01/15 - 17:46] - validation of Role: lateral esquerdo
+[2011/01/15 - 17:48] - validation of Person: Ricardo Sá Pinto
+[2011/01/15 - 17:48] - validation of Role: ex-director desportivo do Sporting
+[2011/01/15 - 17:48] - validation of Organization: Sporting
+[2011/01/15 - 17:50] - validation of Person: Sérgio Sousa Pinto
+[2011/01/15 - 18:00] - validation of Person: George Yeo
+[2011/01/15 - 18:00] - validation of Role: ministro dos Negócios Estrangeiros de Singapura
+[2011/01/15 - 18:00] - validation of Role: ministro dos Negócios Estrangeiros de Singapura
+[2011/01/15 - 18:01] - validation of Person: George Yeo

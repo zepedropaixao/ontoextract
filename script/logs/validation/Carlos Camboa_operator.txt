@@ -1,0 +1,46 @@
+[2011/01/16 - 16:41] - validation of Person: José Eduardo Simões
+[2011/01/16 - 16:45] - validation of Person: Paulo Azevedo
+[2011/01/16 - 16:47] - validation of Role: presidente da Sonae SGPS
+[2011/01/16 - 16:47] - validation of Organization: Sonae SGPS
+[2011/01/16 - 16:51] - validation of Person: Fernando Soares Carneiro
+[2011/01/16 - 16:52] - validation of Role: presidente da PT Prestações
+[2011/01/16 - 16:53] - validation of Organization: PT Prestações
+[2011/01/16 - 16:56] - validation of Person: Domingos Soares de Oliveira
+[2011/01/16 - 16:56] - validation of Role: administrador da SAD
+[2011/01/16 - 16:58] - validation of Person: Rogério Alves
+[2011/01/16 - 16:58] - validation of Role: presidente da Assembleia-geral do Sporting
+[2011/01/16 - 16:58] - validation of Organization: Sporting
+[2011/01/16 - 17:02] - validation of Person: Rodrigo Costa
+[2011/01/16 - 17:03] - validation of Role: presidente da Zon
+[2011/01/16 - 17:07] - validation of Person: Fernando Nobre
+[2011/01/16 - 17:12] - validation of Person: João Bonzinho
+[2011/01/16 - 17:12] - validation of Role: jornalista de A BOLA
+[2011/01/16 - 17:13] - validation of Organization: A BOLA
+[2011/01/16 - 17:15] - validation of Person: João Fernandes
+[2011/01/16 - 17:15] - validation of Role: economista da Deco Proteste
+[2011/01/16 - 17:16] - validation of Organization: Deco Proteste
+[2011/01/16 - 17:17] - validation of Person: Dalila Araújo
+[2011/01/16 - 17:18] - validation of Role: secretária de Estado da Administração Interna
+[2011/01/16 - 17:18] - validation of Organization: Administração Interna
+[2011/01/16 - 17:19] - validation of Person: Borriello
+[2011/01/16 - 17:19] - validation of Role: jogador do AC Milan
+[2011/01/16 - 17:21] - validation of Person: Mathieu Flamini
+[2011/01/16 - 17:22] - validation of Role: médio francês do AC Milan
+[2011/01/16 - 17:23] - validation of Person: Cláudio Rannieri
+[2011/01/16 - 17:23] - validation of Role: treinador da Roma
+[2011/01/16 - 17:24] - validation of Organization: AS Roma
+[2011/01/16 - 17:25] - validation of Person: Emilio Butragueño
+[2011/01/16 - 17:26] - validation of Role: director de relações institucionais do Real Madrid
+[2011/01/16 - 17:27] - validation of Person: Javier Mascherano
+[2011/01/16 - 17:27] - validation of Role: médio do Liverpool
+[2011/01/16 - 17:27] - validation of Organization: Liverpool
+[2011/01/16 - 17:31] - validation of Person: Andrés Iniesta
+[2011/01/16 - 17:33] - validation of Person: Fucile
+[2011/01/16 - 17:33] - validation of Role: lateral do FC Porto
+[2011/01/16 - 17:34] - validation of Organization: FC Porto
+[2011/01/16 - 17:34] - validation of Person: Christian Sapunaru
+[2011/01/16 - 17:34] - validation of Role: defesa do FC Porto
+[2011/01/16 - 17:36] - validation of Person: Sebastian Pinera
+[2011/01/16 - 17:38] - validation of Role: Presidente da República
+[2011/01/16 - 17:40] - validation of Person: Letizia Moratti
+[2011/01/16 - 17:42] - validation of Role: presidente da câmara municipal

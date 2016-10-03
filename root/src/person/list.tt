@@ -1,0 +1,101 @@
+<table>
+	<tr>
+		<td width="65%"> <h2>OntoExtract > Person > List</h2></td>
+		<td width="5%">
+					[% IF c.user.get('role') == 'operator' || c.user.get('role') == 'admin' %]
+		<input type="button" onClick="location.href='[% c.uri_for_action('/person/add') %]'" value="Add Person">
+		[% END %]
+		</td>
+		<td width="35%">
+			<form id="searchquery" action="[% c.uri_for(c.controller('Person').action_for('search')) %]" method="post">
+			<input type="text" name="searchquery" />
+			<input type="submit" value="Search"/>
+			</form>
+		</td>
+	</tr>
+</table>
+
+[% startper = c.stash.perpage %]
+[% endper = startper+9 %]
+<p id="pagecontrol">
+[% IF startper > 9 %]
+[% previousperpage = startper+(-10) %]
+<a href="[% c.uri_for(c.controller('Person').action_for('results'), [previousperpage]) %]" ><</a>
+[% ELSE %]
+[% IF (startper < 9 && startper > 0) %]
+[% previousperpage = 0 %]
+<a href="[% c.uri_for(c.controller('Person').action_for('results'), [previousperpage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF total_per_rs > endper+1 %]
+[% nextperpage = endper+1 %]
+<a href="[% c.uri_for(c.controller('Person').action_for('results'), [nextperpage]) %]" >></a>
+[% END %]
+Results [% startper+1 %]-[% IF endper+1 > total_per_rs %][% total_per_rs %] [% ELSE %] [% endper+1 %] [% END %] of [% total_per_rs %].</p>
+<table id="lista">
+    <thead>
+    	<tr>
+        <th scope="col">Photo</th>
+	<th scope="col">Name</th>
+
+	<th scope="col">Country</th>
+	<th scope="col">Birthday</th>
+	<th scope="col">Abstract</th>
+
+        </tr>
+    </thead>
+    <tbody>
+    [% resul = per_res_nr.slice(startper,endper) %]
+	[% FOREACH res IN resul %]
+	[% IF res %]
+	
+    	<tr 
+    	onmouseover="ChangeRow(this, true);" 
+              onmouseout="ChangeRow(this, false);"
+    	onclick="DoNav('[% c.uri_for_action('/person/profile', [res.id_person]) %]');">
+			<td>
+			[% IF res.picture != "" %]
+
+			<image src="[% res.picture %]" alt="no picture" width="60px" />
+			[% ELSE %]
+			<image src="/static/images/na.png" alt="no picture" width="60px" />
+			[% END %]	
+			</td>
+    	[% FOREACH col = res.result_source.columns %]
+		[% IF !col.match('_valid') && col!='title' && col!='type' && col!='id_person' && col!='sex' && col!='picture' && col!='address' && col!='deathday' && col!='criminalrecord' && col!='articlelink' && col!='notes' && col!='incompleteflag' && col!='tagharem' && col!='lastmodified' %]
+		[% IF col=='birthday' %]
+			<td>[% res.$col.dmy('-') %] </td>
+		[% ELSE %]
+		[% IF col=='abstract' %]
+		[% USE abs = String(res.$col) %]
+			<td>[% abs.truncate(325, ' [...]') %]  </td>
+		[% ELSE %]
+        	<td>[% res.$col %]</td>
+        [% END %]
+		[% END %]
+        [% END %]
+        [% END %]
+	
+        
+        </tr>
+        [% END %]
+        [% END %]
+    </tbody>
+</table>
+[% startper = c.stash.perpage %]
+[% endper = startper+9 %]
+<p id="pagecontrol">
+[% IF startper > 9 %]
+[% previousperpage = startper+(-10) %]
+<a href="[% c.uri_for(c.controller('Person').action_for('results'), [previousperpage]) %]" ><</a>
+[% ELSE %]
+[% IF (startper < 9 && startper > 0) %]
+[% previousperpage = 0 %]
+<a href="[% c.uri_for(c.controller('Person').action_for('results'), [previousperpage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF total_per_rs > endper+1 %]
+[% nextperpage = endper+1 %]
+<a href="[% c.uri_for(c.controller('Person').action_for('results'), [nextperpage]) %]" >></a>
+[% END %]
+Results [% startper+1 %]-[% IF endper+1 > total_per_rs %][% total_per_rs %] [% ELSE %] [% endper+1 %] [% END %] of [% total_per_rs %].</p>

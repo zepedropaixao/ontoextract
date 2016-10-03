@@ -1,0 +1,53 @@
+[2011/01/16 - 21:05] - validation of Organization: Luis Figo
+[2011/01/16 - 21:10] - validation of Person: Maicon
+[2011/01/16 - 21:11] - validation of Role: defesa será composta por Miguel Lopes
+[2011/01/16 - 21:13] - validation of Person: Fernando Belluschi
+[2011/01/16 - 21:16] - validation of Person: João Paulo Oliveira
+[2011/01/16 - 21:16] - validation of Role: representante do grupo Bosch em Portugal
+[2011/01/16 - 21:17] - validation of Organization: grupo Bosch em Portugal
+[2011/01/16 - 21:21] - validation of Person: George Karl
+[2011/01/16 - 21:22] - validation of Role: treinador dos Denver Nuggets
+[2011/01/16 - 21:22] - validation of Organization: Denver Nuggets
+[2011/01/16 - 21:23] - validation of Role: médio argentino do FC Porto
+[2011/01/16 - 21:27] - validation of Person: Danny Alexander
+[2011/01/16 - 21:30] - validation of Person: Danny Alexander
+[2011/01/16 - 21:31] - validation of Role: secretário de Estado das Finanças
+[2011/01/16 - 21:32] - validation of Person: George Karl
+[2011/01/16 - 21:33] - validation of Person: Matthew Fox
+[2011/01/16 - 21:38] - validation of Person: Alberto Contador
+[2011/01/16 - 21:38] - validation of Role: ciclista superou dois dos maiores nomes do ciclismo Mundial
+[2011/01/16 - 21:38] - validation of Organization: ciclismo Mundial
+[2011/01/16 - 21:42] - validation of Person: Pablo Aimar
+[2011/01/16 - 21:43] - validation of Role: jogador do Benfica
+[2011/01/16 - 21:44] - validation of Person: Pablo Zabaleta
+[2011/01/16 - 21:45] - validation of Role: defesa argentino
+[2011/01/16 - 21:47] - validation of Person: Francisco Braz
+[2011/01/16 - 21:48] - validation of Role: presidente do STAL
+[2011/01/16 - 21:49] - validation of Person: Hans-Gert Pottering
+[2011/01/16 - 21:49] - validation of Role: presidente do Parlamento europeu
+[2011/01/16 - 21:50] - validation of Organization: Parlamento europeu
+[2011/01/16 - 21:52] - validation of Person: Armando Guebuza
+[2011/01/16 - 21:52] - validation of Person: Armando Guebuza
+[2011/01/16 - 21:52] - validation of Role: chefe de Estado moçambicano
+[2011/01/16 - 21:53] - validation of Organization: Estado moçambicano
+[2011/01/16 - 21:55] - validation of Person: António José Correia
+[2011/01/16 - 21:55] - validation of Role: presidente da Câmara de Peniche
+[2011/01/16 - 21:56] - validation of Organization: Peniche
+[2011/01/16 - 22:00] - validation of Person: Bento Gonçalves
+[2011/01/16 - 22:00] - validation of Role: secretário-geral do PCP
+[2011/01/16 - 22:01] - validation of Person: Duarte Nunes
+[2011/01/16 - 22:02] - validation of Role: presidente do coletivo de juízes
+[2011/01/16 - 22:03] - validation of Person: Rowan Williams
+[2011/01/16 - 22:04] - validation of Role: arcebispo de Cantuária
+[2011/01/16 - 22:04] - validation of Person: Rowan Williams
+[2011/01/16 - 22:05] - validation of Organization: Cantuária
+[2011/01/16 - 22:06] - validation of Person: Robert Fico
+[2011/01/16 - 22:06] - validation of Role: primeiro-ministro eslovaco
+[2011/01/16 - 22:07] - validation of Role: presidente do Conselho de Administração do BPI
+[2011/01/16 - 22:07] - validation of Person: Artur Santos Silva
+[2011/01/16 - 22:09] - validation of Person: Joaquim Chissano
+[2011/01/16 - 22:10] - validation of Role: ex-Presidente de Moçambique
+[2011/01/16 - 22:10] - validation of Organization: Moçambique
+[2011/01/16 - 22:12] - validation of Person: Ricardo Alves
+[2011/01/16 - 22:13] - validation of Role: presidente da Câmara de Arganil
+[2011/01/16 - 22:13] - validation of Organization: Arganil

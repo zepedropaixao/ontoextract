@@ -1,0 +1,45 @@
+[2011/01/17 - 01:00] - validation of Person: Henrique Granadeiro
+[2011/01/17 - 01:10] - validation of Person: Luís Filipe Pereira
+[2011/01/17 - 01:10] - validation of Role: presidente executivo da Efacec
+[2011/01/17 - 01:10] - validation of Organization: EFACEC
+[2011/01/17 - 01:13] - validation of Person: Miguelito
+[2011/01/17 - 01:13] - validation of Role: jogador do Belenenses
+[2011/01/17 - 01:14] - validation of Organization: Belenenses
+[2011/01/17 - 01:15] - validation of Person: Vítor Gomes
+[2011/01/17 - 01:15] - validation of Organization: Rio Ave
+[2011/01/17 - 01:16] - validation of Role: médio do Rio Ave
+[2011/01/17 - 01:18] - validation of Person: Quim
+[2011/01/17 - 01:22] - validation of Person: Mantorras
+[2011/01/17 - 01:22] - validation of Role: jogador do Benfica
+[2011/01/17 - 01:25] - validation of Person: Bebé
+[2011/01/17 - 01:30] - validation of Person: Ramires
+[2011/01/17 - 01:33] - validation of Person: Vladimir Stojkovic
+[2011/01/17 - 01:33] - validation of Role: guarda-redes do Sporting
+[2011/01/17 - 01:33] - validation of Organization: Sporting
+[2011/01/17 - 01:36] - validation of Person: Timo Hildebrand
+[2011/01/17 - 01:37] - validation of Role: guarda-redes do Sporting
+[2011/01/17 - 01:38] - validation of Person: Carlos Carvalhal
+[2011/01/17 - 01:41] - validation of Person: Ryan Giggs
+[2011/01/17 - 01:42] - validation of Role: médio galês do Manchester United
+[2011/01/17 - 01:42] - validation of Organization: Manchester United
+[2011/01/17 - 01:43] - validation of Person: Ashley
+[2011/01/17 - 01:43] - validation of Role: jogador do Chelsea
+[2011/01/17 - 01:43] - validation of Role: jogador do Chelsea
+[2011/01/17 - 01:43] - validation of Person: Ashley Cole
+[2011/01/17 - 01:44] - validation of Organization: Chelsea
+[2011/01/17 - 01:45] - validation of Person: Guus Hiddink
+[2011/01/17 - 01:46] - validation of Role: treinador do Chelsea
+[2011/01/17 - 01:48] - validation of Person: Roy Hogdson
+[2011/01/17 - 01:48] - validation of Organization: Liverpool
+[2011/01/17 - 01:49] - validation of Role: treinador do Liverpool
+[2011/01/17 - 01:49] - validation of Person: Roy Hodgson
+[2011/01/17 - 01:51] - validation of Person: Guti
+[2011/01/17 - 01:51] - validation of Role: médio espanhol do Real Madrid
+[2011/01/17 - 01:52] - validation of Role: presidente honorário do Real Madrid
+[2011/01/17 - 01:52] - validation of Person: Alfredo Di Stéfano
+[2011/01/17 - 01:53] - validation of Person: Leonardo Jardim
+[2011/01/17 - 01:53] - validation of Role: técnico
+[2011/01/17 - 01:56] - validation of Person: Augusto Inácio
+[2011/01/17 - 01:56] - validation of Role: treinador da Naval
+[2011/01/17 - 01:59] - validation of Person: Joel
+[2011/01/17 - 01:59] - validation of Role: defesa do Leixões

@@ -1,0 +1,59 @@
+[2011/01/16 - 23:20] - validation of Person: Marinho Pinto
+[2011/01/16 - 23:21] - validation of Role: bastonário da Ordem dos Advogados
+[2011/01/16 - 23:27] - validation of Person: Menezes Cordeiro
+[2011/01/16 - 23:27] - validation of Person: Menezes Cordeiro
+[2011/01/16 - 23:27] - validation of Person: Menezes Cordeiro
+[2011/01/16 - 23:27] - validation of Role: presidente da mesa
+[2011/01/16 - 23:33] - validation of Person: Ana Maria Fernandes
+[2011/01/16 - 23:33] - validation of Role: presidente da EDP Renováveis
+[2011/01/16 - 23:34] - validation of Organization: EDP Renováveis
+[2011/01/16 - 23:40] - validation of Role: ex-presidente do BPN
+[2011/01/16 - 23:40] - validation of Person: Oliveira e Costa
+[2011/01/16 - 23:42] - validation of Organization: Super Dragões
+[2011/01/16 - 23:42] - validation of Person: Fernando Madureira
+[2011/01/16 - 23:43] - validation of Role: líder dos Super Dragões
+[2011/01/16 - 23:44] - validation of Person: Avelino Ferreira
+[2011/01/16 - 23:45] - validation of Role: ex-presidente da Câmara do Marco de Canaveses
+[2011/01/16 - 23:45] - validation of Organization: Canaveses
+[2011/01/16 - 23:56] - validation of Person: José Maria Ricciardi
+[2011/01/16 - 23:57] - validation of Role: presidente do BES Investimento
+[2011/01/16 - 23:57] - validation of Organization: BES Investimento
+[2011/01/17 - 00:02] - validation of Organization: Google
+[2011/01/17 - 00:04] - validation of Organization: Porsche
+[2011/01/17 - 00:05] - validation of Person: Wendelin Wiedeking
+[2011/01/17 - 00:05] - validation of Role: presidente executivo da Porsche
+[2011/01/17 - 00:07] - validation of Organization: General Motors
+[2011/01/17 - 00:08] - validation of Person: Frederick Handersen
+[2011/01/17 - 00:08] - validation of Role: presidente-executivo da General Motors
+[2011/01/17 - 00:10] - validation of Person: Frederick Henderson
+[2011/01/17 - 00:13] - validation of Person: Jimmy Wales
+[2011/01/17 - 00:13] - validation of Organization: Wikipedia
+[2011/01/17 - 00:13] - validation of Role: fundador da Wikipedia
+[2011/01/17 - 00:19] - validation of Person: Mahmoud Ahmadinejad
+[2011/01/17 - 00:20] - validation of Role: Presidente da República
+[2011/01/17 - 00:24] - validation of Person: James Harding
+[2011/01/17 - 00:24] - validation of Organization: Times
+[2011/01/17 - 00:24] - validation of Role: director do Times
+[2011/01/17 - 00:26] - validation of Person: Tom Sherak
+[2011/01/17 - 00:27] - validation of Role: presidente da Academia de Hollywood
+[2011/01/17 - 00:33] - validation of Person: Cristina Fernández
+[2011/01/17 - 00:33] - validation of Role: Presidente da Argentina
+[2011/01/17 - 00:34] - validation of Organization: Argentina
+[2011/01/17 - 00:36] - validation of Person: Jeremy Hartley
+[2011/01/17 - 00:36] - validation of Organization: UNICEF
+[2011/01/17 - 00:37] - validation of Role: chefe de comunicação da UNICEF
+[2011/01/17 - 00:37] - validation of Person: Luís Barbosa
+[2011/01/17 - 00:38] - validation of Role: presidente da Cruz Vermelha Portuguesa
+[2011/01/17 - 00:38] - validation of Organization: Cruz Vermelha Portuguesa
+[2011/01/17 - 00:40] - validation of Person: Michael Steele
+[2011/01/17 - 00:40] - validation of Role: líder do Partido Republicano
+[2011/01/17 - 00:40] - validation of Organization: Partido Republicano
+[2011/01/17 - 00:43] - validation of Person: Vítor Veloso
+[2011/01/17 - 00:44] - validation of Organization: Liga Portuguesa Contra o Cancro
+[2011/01/17 - 00:44] - validation of Role: presidente da Liga Portuguesa Contra o Cancro
+[2011/01/17 - 00:50] - validation of Person: Miguel Almeida
+[2011/01/17 - 00:50] - validation of Organization: Optimus
+[2011/01/17 - 00:50] - validation of Role: presidente-executivo da Optimus
+[2011/01/17 - 00:51] - validation of Organization: Renault
+[2011/01/17 - 00:52] - validation of Person: Flavio Briatore
+[2011/01/17 - 00:52] - validation of Role: director-geral da Renault

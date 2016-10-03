@@ -1,0 +1,87 @@
+<table>
+	<tr>
+		<td style="vertical-align:middle"> <h2>OntoExtract > Ergonym/Role > Add Ergonym/Role</h2> </td>
+	</tr>
+</table>
+<!-- [% IF err %][% err %][% END %] -->
+
+
+<table id="form-style">
+<form action="[% c.uri_for(c.controller('Role').action_for('add')) %]" method="post">
+<tr><th width="18%"></th><th width="80%">Insert Values</th><th width="2%">Valid</th></tr>
+[% FOREACH col = role_rs.result_source.columns %]
+[% IF !col.match('_valid') && col!='type' && col!='id_role' && col!='lastmodified' %]
+
+<tr>
+	[% IF col=='id_person' %]
+		<th>Person</th>
+		<td>
+			<select name="id_person">
+			<option value=""></option>
+			[% FOREACH per IN per_res_nr.all %]
+				<option value="[% per.id_person %]">[% per.name %]</option>
+			[% END %]
+			</select>
+		</td>
+	[% ELSE %]
+	[% IF col=='id_organization' %]
+		<th>Organization</th>
+		<td>
+			<select name="id_organization">
+			<option value=""></option>
+			[% FOREACH org IN org_res_nr.all %]
+				<option value="[% org.id_organization %]">[% org.name %]</option>
+			[% END %]
+			</select>
+		</td>
+	[% ELSE %]
+	[% IF col=='name' %]
+		<th>Name</th>
+		<td><input type="text" name="name" /></td>
+	[% ELSE %]
+	[% IF col=='startdate' || col=='enddate' %]
+		<th>[% IF col=='startdate' %]Start Date[% ELSE %]End Date[% END %]</th>
+		<td>
+			<input type="text" name="[% col %]" id="[% col %]" value="" readonly="true" />
+			<script>
+				mCal = new dhtmlxCalendarObject("[% col %]",false,{isYearEditable: true});   
+				mCal.draw();
+			</script>
+		</td>
+	[% ELSE %]
+	[% IF col=='abstract' %]
+		<th>Abstract</th>
+		<td><input type="text" name="abstract" /></td>
+	[% ELSE %]
+	[% IF col=='articlelink' %]
+		<th>Article Link</th>
+		<td><input type="text" name="articlelink" /></td>
+	[% ELSE %]
+	[% IF col=='incompleteflag' %]
+		<th>Completeness</th>
+		<td>
+			<select name="incompleteflag">
+			<option value="u"></option>
+			<option value="t">Perfil Incompleto</option>
+			<option value="f">Perfil Completo</option>
+			</select>
+		</td>
+	[% END %][% END %][% END %][% END %][% END %][% END %][% END %]
+		<td>
+			[% IF col=='startdate' || col=='enddate' || col == 'name' || col == 'abstract' || col=='articlelink' %]
+				[% list = [col, 'valid'] %]
+				[% valid_elem = list.join('_') %]
+				<input type="checkbox" name="[% valid_elem %]">
+			[% END %]
+		</td>
+		[% IF errors.$col %]
+			<td><span style="color: red;">[% errors.$col %]</span></td>
+		[% END %]
+</tr>
+[% END %]
+[% END %]
+<tr><th></th><th><input type="submit" value="Create"/></th><th></th></tr>
+</form>
+</table>
+
+

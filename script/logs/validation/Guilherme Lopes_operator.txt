@@ -1,0 +1,46 @@
+[2011/01/16 - 18:16] - validation of Person: Rama Yade
+[2011/01/16 - 18:16] - validation of Role: Secretária de Estado do Desporto
+[2011/01/16 - 18:18] - validation of Person: Muammar Kadhafi
+[2011/01/16 - 18:18] - validation of Role: líder da Líbia
+[2011/01/16 - 18:19] - validation of Organization: Líbia
+[2011/01/16 - 18:20] - validation of Person: James Cameron
+[2011/01/16 - 18:21] - validation of Role: realizador de
+[2011/01/16 - 18:25] - validation of Person: Alexandr Lukashenko
+[2011/01/16 - 18:26] - validation of Role: presidente bielorrusso
+[2011/01/16 - 18:27] - validation of Person: Zeinal Bava
+[2011/01/16 - 18:30] - validation of Person: George Papandreou
+[2011/01/16 - 18:30] - validation of Person: George Papandreou
+[2011/01/16 - 18:30] - validation of Role: primeiro-ministro grego
+[2011/01/16 - 18:31] - validation of Person: Recep Tayyip Erdogan
+[2011/01/16 - 18:32] - validation of Role: primeiro-ministro turco
+[2011/01/16 - 18:33] - validation of Person: François Fillon
+[2011/01/16 - 18:34] - validation of Role: primeiro-ministro francês
+[2011/01/16 - 18:34] - validation of Role: primeiro-ministro francês
+[2011/01/16 - 18:35] - validation of Person: Marine Le Pen
+[2011/01/16 - 18:35] - validation of Role: vice-presidente do partido de extrema-direita Frente Nacional
+[2011/01/16 - 18:35] - validation of Role: vice-presidente do partido de extrema-direita Frente Nacional
+[2011/01/16 - 18:36] - validation of Person: Giorgio Napolitano
+[2011/01/16 - 18:37] - validation of Role: Presidente da República
+[2011/01/16 - 18:38] - validation of Person: Aurelio De Laurentiis
+[2011/01/16 - 18:38] - validation of Person: Aurelio De Laurentiis
+[2011/01/16 - 18:39] - validation of Role: presidente do Nápoles
+[2011/01/16 - 18:39] - validation of Organization: Nápoles
+[2011/01/16 - 18:42] - validation of Person: Reinaldo Teles
+[2011/01/16 - 18:42] - validation of Role: administrador da SAD
+[2011/01/16 - 18:44] - validation of Person: Isaltino
+[2011/01/16 - 18:44] - validation of Role: presidente da Câmara de Oeiras
+[2011/01/16 - 18:44] - validation of Organization: Oeiras
+[2011/01/16 - 18:45] - validation of Person: Isaltino Morais
+[2011/01/16 - 18:48] - validation of Person: Francisco Pinto Balsemão
+[2011/01/16 - 18:48] - validation of Role: presidente da Impresa
+[2011/01/16 - 18:54] - validation of Person: Daniel Campelo
+[2011/01/16 - 18:54] - validation of Role: presidente da câmara de Ponte de Lima
+[2011/01/16 - 19:12] - validation of Person: Fernando Costa
+[2011/01/16 - 19:13] - validation of Role: presidente da Câmara Municipal de Caldas da Rainha
+[2011/01/16 - 19:14] - validation of Person: Fernando Gomes
+[2011/01/16 - 19:15] - validation of Person: Nuno Cardoso
+[2011/01/16 - 19:15] - validation of Role: ex-presidente da Câmara do Porto
+[2011/01/16 - 19:16] - validation of Organization: Porto
+[2011/01/16 - 19:17] - validation of Role: candidato presidencial do PCP
+[2011/01/16 - 19:19] - validation of Role: director de futebol
+[2011/01/16 - 19:20] - validation of Person: Costinha

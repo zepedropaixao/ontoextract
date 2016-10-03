@@ -1,0 +1,9 @@
+[2011/01/15 - 17:39] - validation of Role: seleccionador alemão
+[2011/01/15 - 17:53] - validation of Person: Arsène Wenger
+[2011/01/15 - 17:53] - validation of Role: técnico do Arsenal
+[2011/01/15 - 17:56] - validation of Person: Carlo Ancelotti
+[2011/01/15 - 17:59] - validation of Person: Rafa Benitez
+[2011/01/15 - 17:59] - validation of Role: técnico do Liverpool
+[2011/01/15 - 18:03] - validation of Person: Roberto Mancini
+[2011/01/15 - 18:03] - validation of Role: técnico do Manchester City
+[2011/01/15 - 18:07] - validation of Person: Hu Jintao

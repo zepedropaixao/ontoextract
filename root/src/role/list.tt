@@ -1,0 +1,73 @@
+<table>
+	<tr>
+		<td width="60%"> <h2>OntoExtract > Ergonym/Role > List</h2></td>
+		<td width="10%"> [% IF c.user.get('role') == 'operator' || c.user.get('role') == 'admin' %]
+		<input type="button" onClick="location.href='[% c.uri_for_action('/role/add') %]'" value="Add Ergonym/Role">
+		[% END %]</td>
+		<td width="30%">
+			
+			<form id="searchquery" action="[% c.uri_for(c.controller('Role').action_for('search')) %]" method="post">
+			<input type="text" name="searchquery" />
+			<input type="submit" value="Search"/>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+[% startrole = c.stash.rolepage %]
+[% endrole = startrole+9 %]
+<p id="pagecontrol">
+[% IF startrole > 9 %]
+[% previousrolepage = startrole+(-10) %]
+<a href="[% c.uri_for(c.controller('Role').action_for('results'), [previousrolepage]) %]" ><</a>
+[% ELSE %]
+[% IF (startrole < 9 && startrole > 0) %]
+[% previousrolepage = 0 %]
+<a href="[% c.uri_for(c.controller('Role').action_for('results'), [previousrolepage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF total_role_rs > endrole+1 %]
+[% nextrolepage = endrole+1 %]
+<a href="[% c.uri_for(c.controller('Role').action_for('results'), [nextrolepage]) %]" >></a>
+[% END %]
+Results [% startrole+1 %]-[% IF endrole+1 > total_role_rs %][% total_role_rs %] [% ELSE %] [% endrole+1 %] [% END %] of [% total_role_rs %].</p>
+
+<table id="lista">
+    <thead>
+		<tr>
+			<th scope="col">Name</th>
+			<th scope="col">Start Date</th>
+			<th scope="col">Abstract</th>
+        </tr>
+    </thead>
+    <tbody>
+    [% resul = role_res_nr.slice(startrole,endrole) %]
+	[% FOREACH res IN resul %]
+	[% IF res %]
+    	<tr onmouseover="ChangeRow(this, true);" onmouseout="ChangeRow(this, false);" onclick="DoNav('[% c.uri_for_action('/role/profile', [res.id_role]) %]');">
+    		<td>[% res.name %]</td>
+			<td>[% res.startdate.dmy('-') %] </td>
+		[% USE abs = String(res.abstract) %]
+			<td>[% abs.truncate(325, ' [...]') %]  </td>
+		</tr>
+    [% END %]
+    [% END %]
+    </tbody>
+</table>
+
+<p id="pagecontrol">
+[% IF startrole > 9 %]
+[% previousrolepage = startrole+(-10) %]
+<a href="[% c.uri_for(c.controller('Role').action_for('results'), [previousrolepage]) %]" ><</a>
+[% ELSE %]
+[% IF (startrole < 9 && startrole > 0) %]
+[% previousrolepage = 0 %]
+<a href="[% c.uri_for(c.controller('Role').action_for('results'), [previousrolepage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF total_role_rs > endrole+1 %]
+[% nextrolepage = endrole+1 %]
+<a href="[% c.uri_for(c.controller('Role').action_for('results'), [nextrolepage]) %]" >></a>
+[% END %]
+Results [% startrole+1 %]-[% IF endrole+1 > total_role_rs %][% total_role_rs %] [% ELSE %] [% endrole+1 %] [% END %] of [% total_role_rs %].</p>

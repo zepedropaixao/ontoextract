@@ -1,0 +1,45 @@
+[2011/01/18 - 11:46] - validation of Role: presidente do conselho de administração da Lusa
+[2011/01/18 - 11:47] - validation of Person: Afonso Camões
+[2011/01/18 - 11:48] - validation of Organization: agência Lusa
+[2011/01/18 - 11:50] - validation of Person: Jorge Coelho
+[2011/01/18 - 11:54] - validation of Organization: Mota-Engil
+[2011/01/18 - 11:56] - validation of Role: presidente da Mota-Engil
+[2011/01/18 - 12:08] - validation of Role: porta-voz do Ministério Público de Munique
+[2011/01/18 - 12:09] - validation of Person: Barbara Stockinger
+[2011/01/18 - 12:12] - validation of Person: Arne Duncan
+[2011/01/18 - 12:13] - validation of Role: director das Escolas Públicas de Chicago
+[2011/01/18 - 12:14] - validation of Person: Aung San Suu Kyi
+[2011/01/18 - 12:15] - validation of Role: líder da oposição birmanesa
+[2011/01/18 - 12:16] - validation of Organization: oposição birmanesa
+[2011/01/18 - 12:19] - validation of Person: Barry Andrews
+[2011/01/18 - 12:19] - validation of Role: Ministro Irlandês da Infância
+[2011/01/18 - 12:21] - validation of Person: Capoulas Santos
+[2011/01/18 - 12:21] - validation of Role: vice-presidente da Comissão Política do PS
+[2011/01/18 - 12:23] - validation of Person: Alfredo Cunhal
+[2011/01/18 - 12:23] - validation of Role: administrador do grupo Sousa Cunhal
+[2011/01/18 - 12:24] - validation of Organization: grupo Sousa Cunhal
+[2011/01/18 - 12:25] - validation of Person: Basílio Horta
+[2011/01/18 - 12:27] - validation of Role: presidente da Aicep
+[2011/01/18 - 12:27] - validation of Organization: Aicep
+[2011/01/18 - 12:30] - validation of Person: Antonio Cassano
+[2011/01/18 - 12:31] - validation of Role: jogador da Sampdoria
+[2011/01/18 - 12:31] - validation of Organization: Sampdoria
+[2011/01/18 - 12:33] - validation of Person: Anxo Quintana
+[2011/01/18 - 12:38] - validation of Person: Bruno Gollnisch
+[2011/01/18 - 12:38] - validation of Role: vice-presidente da Frente Nacional
+[2011/01/18 - 15:27] - validation of Person: António Bento Bembe
+[2011/01/18 - 15:38] - validation of Person: Armanda Moreira
+[2011/01/18 - 15:39] - validation of Role: presidente da ADIRV
+[2011/01/18 - 15:39] - validation of Organization: ADIRV
+[2011/01/18 - 15:40] - validation of Person: Carl Levin
+[2011/01/18 - 15:41] - validation of Role: senador democrata
+[2011/01/18 - 16:25] - validation of Person: António Almeida
+[2011/01/18 - 16:27] - validation of Role: director executivo da ACAPOR
+[2011/01/18 - 16:29] - validation of Role: presidente da Câmara de Albergaria-a-Velha
+[2011/01/18 - 16:29] - validation of Person: João Agostinho
+[2011/01/18 - 16:31] - validation of Person: Borges Martins
+[2011/01/18 - 16:31] - validation of Role: presidente da Parque Expo
+[2011/01/18 - 16:31] - validation of Organization: Parque Expo
+[2011/01/18 - 16:32] - validation of Person: André Martins
+[2011/01/18 - 16:33] - validation of Role: presidente da Realidade Social
+[2011/01/18 - 16:33] - validation of Organization: Realidade Social

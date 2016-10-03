@@ -1,0 +1,53 @@
+[2011/01/15 - 19:27] - validation of Person: António Costa
+[2011/01/15 - 19:28] - validation of Role: presidente da Câmara de Lisboa
+[2011/01/15 - 19:34] - validation of Person: Jorge Costa
+[2011/01/15 - 19:36] - validation of Person: Franklin Martins
+[2011/01/15 - 19:36] - validation of Person: Franklin Martins
+[2011/01/15 - 19:37] - validation of Role: ministro da Comunicação Social do Brasil
+[2011/01/15 - 19:37] - validation of Organization: Brasil
+[2011/01/15 - 19:38] - validation of Person: Mariano Gago
+[2011/01/15 - 19:39] - validation of Role: ministro do Ensino Superior
+[2011/01/15 - 19:46] - validation of Person: Dunga
+[2011/01/15 - 19:47] - validation of Role: seleccionador do Brasil
+[2011/01/15 - 19:47] - validation of Organization: Brasil
+[2011/01/15 - 19:50] - validation of Person: Jaime Gama
+[2011/01/15 - 19:52] - validation of Role: Presidente da Assembleia da República
+[2011/01/15 - 19:53] - validation of Person: Mota Amaral
+[2011/01/15 - 19:55] - validation of Role: presidente da Assembleia da República
+[2011/01/15 - 19:57] - validation of Person: Fernando Nogueira
+[2011/01/15 - 19:59] - validation of Person: Paulo Rangel
+[2011/01/15 - 20:00] - validation of Role: coordenador dos eurodeputados do PSD
+[2011/01/15 - 20:02] - validation of Person: Manuela Ferreira Leite
+[2011/01/15 - 20:02] - validation of Role: presidente do PSD
+[2011/01/15 - 20:09] - validation of Person: Paulo Bento
+[2011/01/15 - 20:09] - validation of Role: seleccionador português de futebol
+[2011/01/15 - 20:09] - validation of Organization: futebol
+[2011/01/15 - 20:10] - validation of Person: Gilberto Madaíl
+[2011/01/15 - 20:10] - validation of Role: presidente da Federação portuguesa de futebol
+[2011/01/15 - 20:11] - validation of Organization: futebol
+[2011/01/15 - 20:12] - validation of Person: Harry Redknapp
+[2011/01/15 - 20:12] - validation of Role: técnico do Tottenham
+[2011/01/15 - 20:12] - validation of Organization: Tottenham
+[2011/01/15 - 20:14] - validation of Person: Josep Guardiola
+[2011/01/15 - 20:15] - validation of Role: técnico do Barcelona
+[2011/01/15 - 20:15] - validation of Organization: Barcelona
+[2011/01/15 - 20:17] - validation of Person: Massimo Moratti
+[2011/01/15 - 20:17] - validation of Person: Massimo Moratti
+[2011/01/15 - 20:17] - validation of Role: presidente da equipa italiana
+[2011/01/15 - 20:18] - validation of Organization: equipa italiana
+[2011/01/15 - 20:18] - validation of Role: presidente do clube
+[2011/01/15 - 20:19] - validation of Person: Florentino Perez
+[2011/01/15 - 20:19] - validation of Role: presidente do Real Madrid
+[2011/01/15 - 20:19] - validation of Organization: Real Madrid
+[2011/01/15 - 20:21] - validation of Person: Sandro Rosell
+[2011/01/15 - 20:22] - validation of Role: presidente do Barcelona
+[2011/01/15 - 20:22] - validation of Person: Sandro Rosell
+[2011/01/15 - 20:24] - validation of Person: Patrícia Amorim
+[2011/01/15 - 20:24] - validation of Role: presidente do Flamengo
+[2011/01/15 - 20:24] - validation of Organization: Flamengo
+[2011/01/15 - 20:30] - validation of Person: Alvaro Uribe
+[2011/01/15 - 20:31] - validation of Role: Presidente da Colômbia
+[2011/01/15 - 20:31] - validation of Organization: Colômbia
+[2011/01/15 - 20:32] - validation of Person: Christian Wulff
+[2011/01/15 - 20:33] - validation of Person: Christian Wulff
+[2011/01/15 - 20:33] - validation of Role: presidente alemão

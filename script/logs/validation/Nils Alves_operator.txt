@@ -1,0 +1,41 @@
+[2011/01/17 - 11:28] - validation of Person: Manuel Polanco
+[2011/01/17 - 11:30] - validation of Role: presidente da Prisa
+[2011/01/17 - 11:35] - validation of Person: Juan Luis Cebrián
+[2011/01/17 - 11:36] - validation of Role: conselheiro delegado da Prisa
+[2011/01/17 - 11:42] - validation of Person: Alistair Darling
+[2011/01/17 - 11:43] - validation of Person: George Osborne
+[2011/01/17 - 11:44] - validation of Role: ministro das Finanças britânico
+[2011/01/17 - 11:45] - validation of Role: secretário geral da UGT
+[2011/01/17 - 11:47] - validation of Person: Charles Bolden
+[2011/01/17 - 11:47] - validation of Role: administrador da NASA
+[2011/01/17 - 11:50] - validation of Person: Timothy Geithner
+[2011/01/17 - 11:53] - validation of Person: Bernardino Soares
+[2011/01/17 - 11:54] - validation of Person: Rafaa Alaaysawe
+[2011/01/17 - 11:55] - validation of Role: vice-primeiro-ministro
+[2011/01/17 - 11:59] - validation of Role: seleccionador da França
+[2011/01/17 - 11:59] - validation of Organization: França
+[2011/01/17 - 12:00] - validation of Person: Najib Razak
+[2011/01/17 - 12:00] - validation of Role: vice-primeiro-ministro da Malásia
+[2011/01/17 - 12:01] - validation of Organization: Malásia
+[2011/01/17 - 12:05] - validation of Person: Bruno Paiva
+[2011/01/17 - 12:06] - validation of Person: João Proença
+[2011/01/17 - 12:06] - validation of Role: secretário geral da UGT
+[2011/01/17 - 12:06] - validation of Organization: Prisa
+[2011/01/17 - 12:12] - validation of Person: Rodrigo Caetano
+[2011/01/17 - 12:12] - validation of Role: director-executivo do futebol do Vasco da Gama
+[2011/01/17 - 12:13] - validation of Person: Tiago Gomes
+[2011/01/17 - 12:14] - validation of Role: presidente da SAD do Belenenses
+[2011/01/17 - 12:19] - validation of Role: secretário de Estado da Administração Local
+[2011/01/17 - 12:19] - validation of Person: José Junqueiro
+[2011/01/17 - 12:20] - validation of Person: Eduardo Cabrita
+[2011/01/17 - 12:20] - validation of Role: secretário de Estado da Administração Local
+[2011/01/17 - 12:22] - validation of Person: José Miguel
+[2011/01/17 - 12:23] - validation of Role: seleccionador nacional de futebol de praia
+[2011/01/17 - 12:24] - validation of Person: Patrick Dunleavy
+[2011/01/17 - 12:24] - validation of Role: professor de ciência política na London School of Economics
+[2011/01/17 - 12:25] - validation of Organization: ciência política na London School of Economics
+[2011/01/17 - 12:31] - validation of Person: Porfírio Amorim
+[2011/01/17 - 12:32] - validation of Organization: Trofense
+[2011/01/17 - 12:32] - validation of Role: técnico do Trofense
+[2011/01/17 - 12:37] - validation of Person: João Barbosa
+[2011/01/17 - 12:39] - validation of Person: Raymond Domenech

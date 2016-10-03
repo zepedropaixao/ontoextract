@@ -1,0 +1,33 @@
+[2011/01/16 - 21:01] - validation of Person: Berta Cabral
+[2011/01/16 - 21:07] - validation of Role: presidente do PSD/Açores
+[2011/01/16 - 21:10] - validation of Person: Jaime Pacheco
+[2011/01/16 - 21:14] - validation of Person: Tonel
+[2011/01/16 - 21:19] - validation of Person: André Villas Boas
+[2011/01/16 - 21:19] - validation of Role: treinador do FC Porto
+[2011/01/16 - 21:22] - validation of Person: Paulo Ferreira
+[2011/01/16 - 21:24] - validation of Person: Simão
+[2011/01/16 - 21:24] - validation of Role: jogador português do Atlético
+[2011/01/16 - 21:25] - validation of Person: Nuno André Coelho
+[2011/01/16 - 21:27] - validation of Person: Ruben Amorim
+[2011/01/16 - 21:28] - validation of Role: médio do Benfica
+[2011/01/16 - 21:29] - validation of Person: Tiago Monteiro
+[2011/01/16 - 21:29] - validation of Role: piloto de automóveis
+[2011/01/16 - 21:31] - validation of Person: Carmona Rodrigues
+[2011/01/16 - 21:31] - validation of Role: ex-presidente da Câmara de Lisboa
+[2011/01/16 - 21:32] - validation of Person: Xavi Hernández
+[2011/01/16 - 21:32] - validation of Role: médio do Barcelona
+[2011/01/16 - 21:33] - validation of Role: médio internacional holandês
+[2011/01/16 - 21:33] - validation of Person: Ibrahim Afellay
+[2011/01/16 - 21:34] - validation of Person: Javier 'El Vasco' Aguirre
+[2011/01/16 - 21:35] - validation of Role: seleccionador de futebol do México
+[2011/01/16 - 21:36] - validation of Person: Didier Deschamps
+[2011/01/16 - 21:39] - validation of Person: Guarín
+[2011/01/16 - 21:39] - validation of Role: médio do FC Porto
+[2011/01/16 - 21:41] - validation of Person: Petr Cech
+[2011/01/16 - 21:41] - validation of Role: guarda-redes do Chelsea
+[2011/01/16 - 21:42] - validation of Person: Materazzi
+[2011/01/16 - 21:42] - validation of Role: defesa do Inter
+[2011/01/16 - 21:43] - validation of Person: Fernando Alonso
+[2011/01/16 - 21:44] - validation of Role: piloto da Ferrari
+[2011/01/16 - 21:45] - validation of Role: médio do Boca Juniors
+[2011/01/16 - 21:47] - validation of Person: David James

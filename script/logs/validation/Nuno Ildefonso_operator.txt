@@ -1,0 +1,49 @@
+[2011/01/15 - 20:17] - validation of Person: António Silva Campos
+[2011/01/15 - 20:18] - validation of Role: presidente do Rio Ave
+[2011/01/15 - 20:18] - validation of Organization: Rio Ave
+[2011/01/15 - 20:19] - validation of Person: Carlos Brito
+[2011/01/15 - 20:19] - validation of Role: técnico do Rio Ave
+[2011/01/15 - 20:22] - validation of Person: Armando Rocha
+[2011/01/15 - 20:22] - validation of Role: presidente da Assembleia Geral da FPB
+[2011/01/15 - 20:25] - validation of Person: Diogo Vaz Guedes
+[2011/01/15 - 20:25] - validation of Role: presidente da Privado Holding
+[2011/01/15 - 20:26] - validation of Organization: Privado Holding
+[2011/01/15 - 20:27] - validation of Person: Almerindo Marques
+[2011/01/15 - 20:28] - validation of Role: presidente da Estradas de Portugal
+[2011/01/15 - 20:30] - validation of Person: Miguel Athayde Marques
+[2011/01/15 - 20:33] - validation of Role: presidente da Euronext Lisboa
+[2011/01/15 - 20:35] - validation of Person: Mário Paixão
+[2011/01/15 - 20:35] - validation of Role: presidente do conselho de administração da ASA
+[2011/01/15 - 20:37] - validation of Person: António Ferreira de Carvalho
+[2011/01/15 - 20:37] - validation of Role: presidente da AERLIS
+[2011/01/15 - 20:37] - validation of Organization: AERLIS
+[2011/01/15 - 20:39] - validation of Person: Alda Carvalho
+[2011/01/15 - 20:39] - validation of Role: presidente do INE
+[2011/01/15 - 20:42] - validation of Person: Filipe Ernesto Sousa
+[2011/01/15 - 20:42] - validation of Role: presidente da Junta de São Gregório
+[2011/01/15 - 20:43] - validation of Organization: São Gregório
+[2011/01/17 - 03:46] - validation of Person: James Davis
+[2011/01/17 - 03:46] - validation of Role: ex-director financeiro do grupo Stanford
+[2011/01/17 - 03:46] - validation of Organization: grupo Stanford
+[2011/01/17 - 03:49] - validation of Person: Douglas Alexander
+[2011/01/17 - 03:49] - validation of Role: ministro para o Desenvolvimento Internacional
+[2011/01/17 - 03:50] - validation of Person: Ellen Johnson-Sirleaf
+[2011/01/17 - 03:51] - validation of Role: Presidente da Libéria
+[2011/01/17 - 03:51] - validation of Organization: Libéria
+[2011/01/17 - 04:09] - validation of Person: Andy Burnham
+[2011/01/17 - 04:09] - validation of Role: ministro da Cultura britânico
+[2011/01/17 - 04:12] - validation of Person: John Cummins
+[2011/01/17 - 04:12] - validation of Role: bispo de Oakland
+[2011/01/17 - 04:32] - validation of Person: Abdirahman Omar Osman
+[2011/01/17 - 04:33] - validation of Role: ministro da Informação da Somália
+[2011/01/17 - 04:33] - validation of Organization: Somália
+[2011/01/17 - 04:35] - validation of Person: Sharif Hassan Sheikh Aden
+[2011/01/17 - 04:35] - validation of Role: presidente do Parlamento da Somália
+[2011/01/17 - 04:36] - validation of Person: Charles Pasqua
+[2011/01/17 - 04:36] - validation of Role: ex-ministro Interior francês
+[2011/01/17 - 04:37] - validation of Person: Charles Pasqua
+[2011/01/17 - 04:38] - validation of Person: Akio Toyoda
+[2011/01/17 - 04:38] - validation of Role: presidente do construtor japonês Toyota Motor
+[2011/01/17 - 04:41] - validation of Person: Alan Greenspan
+[2011/01/17 - 04:41] - validation of Role: ex-presidente da Reserva Federal
+[2011/01/17 - 04:41] - validation of Organization: Reserva Federal

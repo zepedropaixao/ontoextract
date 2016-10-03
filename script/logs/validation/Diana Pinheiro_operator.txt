@@ -1,0 +1,32 @@
+[2011/01/15 - 17:40] - validation of Organization: estado norte-americana
+[2011/01/15 - 17:44] - validation of Person: José Maria Aznar
+[2011/01/15 - 17:44] - validation of Role: ex-ministro espanhol
+[2011/01/15 - 17:47] - validation of Person: Vladimir Putin
+[2011/01/15 - 17:47] - validation of Role: Presidente russo
+[2011/01/15 - 17:51] - validation of Person: Bono
+[2011/01/15 - 17:51] - validation of Role: vocalista do grupo
+[2011/01/15 - 17:56] - validation of Person: Henry Paulson
+[2011/01/15 - 17:57] - validation of Role: secretário de Estado do Tesouro
+[2011/01/15 - 18:00] - validation of Person: Silvio Berlusconi
+[2011/01/15 - 18:00] - validation of Role: presidente do Milan
+[2011/01/15 - 18:01] - validation of Organization: AC Milan
+[2011/01/15 - 18:06] - validation of Person: Mohamed Zidane
+[2011/01/15 - 18:10] - validation of Person: Bill Burton
+[2011/01/15 - 18:11] - validation of Role: porta-voz adjunto da Casa Branca
+[2011/01/15 - 18:11] - validation of Role: porta-voz adjunto da Casa Branca
+[2011/01/15 - 18:11] - validation of Organization: Casa branca
+[2011/01/15 - 18:22] - validation of Person: John Williams
+[2011/01/15 - 18:23] - validation of Role: presidente do Blackburn
+[2011/01/15 - 18:23] - validation of Organization: Blackburn
+[2011/01/15 - 18:26] - validation of Person: Alexander Medvedev
+[2011/01/15 - 18:26] - validation of Role: vice-presidente da Gazprom
+[2011/01/15 - 18:27] - validation of Organization: Gazprom
+[2011/01/15 - 18:28] - validation of Person: Ban Ki-Moon
+[2011/01/15 - 18:28] - validation of Role: secretário-geral da ONU
+[2011/01/15 - 18:29] - validation of Person: Sakari
+[2011/01/15 - 18:30] - validation of Role: cirurgião ortopédico responsável pela intervenção
+[2011/01/15 - 18:31] - validation of Person: Diego Armando Maradona
+[2011/01/15 - 18:31] - validation of Role: seleccionador argentino de futebol
+[2011/01/15 - 18:37] - validation of Person: Quique Flores
+[2011/01/15 - 18:37] - validation of Role: técnico do Benfica
+[2011/01/15 - 18:37] - validation of Organization: Benfica

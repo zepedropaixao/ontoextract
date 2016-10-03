@@ -1,0 +1,41 @@
+[2011/01/16 - 15:27] - validation of Person: António Vitorino
+[2011/01/16 - 15:27] - validation of Role: coordenador do programa eleitoral do PS
+[2011/01/16 - 15:35] - validation of Person: António Corrêa de Sampaio
+[2011/01/16 - 15:36] - validation of Role: presidente do conselho de administração
+[2011/01/16 - 15:38] - validation of Person: José Maria Calheiros
+[2011/01/16 - 15:38] - validation of Role: presidente da Federação Portuguesa de Ténis
+[2011/01/16 - 15:45] - validation of Person: João Manzarra
+[2011/01/16 - 15:45] - validation of Role: apresentador do programa
+[2011/01/16 - 15:47] - validation of Person: Yannick Djaló
+[2011/01/16 - 15:47] - validation of Role: jogador do Sporting
+[2011/01/16 - 15:50] - validation of Person: Gomes Pereira
+[2011/01/16 - 15:50] - validation of Role: responsável médico do Sporting
+[2011/01/16 - 15:51] - validation of Person: Nuno Dias
+[2011/01/16 - 15:52] - validation of Role: director de comunicação do Sporting
+[2011/01/16 - 15:55] - validation of Person: Rui Patrício
+[2011/01/16 - 15:57] - validation of Person: Virgílio Abreu
+[2011/01/16 - 15:57] - validation of Role: médico do Sporting
+[2011/01/16 - 16:00] - validation of Person: David Luiz
+[2011/01/16 - 16:01] - validation of Role: defesa central do Benfica
+[2011/01/16 - 16:03] - validation of Person: Rui Costa
+[2011/01/16 - 16:03] - validation of Role: director desportivo do Benfica
+[2011/01/16 - 16:12] - validation of Person: Steve Ballmer
+[2011/01/16 - 16:12] - validation of Role: presidente da Microsoft
+[2011/01/16 - 16:22] - validation of Person: David Beckham
+[2011/01/16 - 16:22] - validation of Role: médio dos Los Angeles Galaxy
+[2011/01/16 - 16:25] - validation of Person: Zubizarreta
+[2011/01/16 - 16:25] - validation of Role: director desportivo do Barcelona
+[2011/01/16 - 16:30] - validation of Person: Carlos Díez
+[2011/01/16 - 16:31] - validation of Role: chefe dos serviços médicos do Real Madrid
+[2011/01/16 - 16:32] - validation of Person: Sergio Ramos
+[2011/01/16 - 16:32] - validation of Role: defesa do Real Madrid
+[2011/01/16 - 16:33] - validation of Person: Jorge Valdano
+[2011/01/16 - 16:33] - validation of Role: director-geral do Real Madrid
+[2011/01/16 - 16:34] - validation of Person: Iker Casillas
+[2011/01/16 - 16:34] - validation of Role: guarda-redes do Real Madrid
+[2011/01/16 - 16:37] - validation of Person: Rio Ferdinand
+[2011/01/16 - 16:38] - validation of Role: defesa do Manchester United
+[2011/01/16 - 16:41] - validation of Person: Davil Gill
+[2011/01/16 - 16:42] - validation of Role: director-geral do Manchester United
+[2011/01/16 - 16:43] - validation of Person: John Terry
+[2011/01/16 - 16:44] - validation of Role: defesa central do Chelsea

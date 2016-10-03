@@ -1,0 +1,82 @@
+<table>
+	<tr>
+		<td width="65%"> <h2>OntoExtract > User > List</h2></td>
+		<td width="5%"> [% IF c.user.get('role') == 'admin' %]
+		<input type="button" onClick="location.href='[% c.uri_for_action('/user/add') %]'" value="Add User">
+		[% END %]</td>
+		<td width="35%">
+			
+			<form id="searchquery" action="[% c.uri_for(c.controller('User').action_for('search')) %]" method="post">
+			<input type="text" name="searchquery" />
+			<input type="submit" value="Search"/>
+			</form>
+		</td>
+	</tr>
+</table>
+
+[% startuser = c.stash.userpage %]
+[% enduser = startuser+9 %]
+<p id="pagecontrol">
+[% IF startuser > 9 %]
+[% previoususerpage = startuser+(-10) %]
+<a href="[% c.uri_for(c.controller('User').action_for('results'), [previoususerpage]) %]" ><</a>
+[% ELSE %]
+[% IF (startuser < 9 && startuser > 0) %]
+[% previoususerpage = 0 %]
+<a href="[% c.uri_for(c.controller('User').action_for('results'), [previoususerpage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF user_res_nr.size > enduser+1 %]
+[% nextuserpage = enduser+1 %]
+<a href="[% c.uri_for(c.controller('User').action_for('results'), [nextuserpage]) %]" >></a>
+[% END %]
+Results [% startuser+1 %]-[% IF enduser+1 > user_res_nr.size %][% user_res_nr.size %] [% ELSE %] [% enduser+1 %] [% END %] of [% user_res_nr.size %].</p>
+
+<table id="lista">
+    <thead>
+    	<tr>
+	<th scope="col">Login</th>
+	<th scope="col">Type</th>
+
+	<th scope="col">Name</th>
+
+
+	<th scope="col">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+    [% resul = user_res_nr.slice(startuser,enduser) %]
+	[% FOREACH res IN resul %]
+	[% IF res %]
+    
+    	<tr onmouseover="ChangeRow(this, true);" 
+              onmouseout="ChangeRow(this, false);"
+    	onclick="DoNav('[% c.uri_for_action('/user/profile', [res.id_user]) %]');">
+    	
+    	[% FOREACH col = res.result_source.columns %]
+		[% IF col!='password' && col!='id_user' &&col!='lastaccess' && col!='email' && col!='notes' %]
+        	<td>[% res.$col %]</td>
+		[% END %]
+        [% END %]
+        </tr>
+        [% END %]
+        [% END %]
+    </tbody>
+</table>
+<p id="pagecontrol">
+[% IF startuser > 9 %]
+[% previoususerpage = startuser+(-10) %]
+<a href="[% c.uri_for(c.controller('User').action_for('results'), [previoususerpage]) %]" ><</a>
+[% ELSE %]
+[% IF (startuser < 9 && startuser > 0) %]
+[% previoususerpage = 0 %]
+<a href="[% c.uri_for(c.controller('User').action_for('results'), [previoususerpage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF user_res_nr.size > enduser+1 %]
+[% nextuserpage = enduser+1 %]
+<a href="[% c.uri_for(c.controller('User').action_for('results'), [nextuserpage]) %]" >></a>
+[% END %]
+Results [% startuser+1 %]-[% IF enduser+1 > user_res_nr.size %][% user_res_nr.size %] [% ELSE %] [% enduser+1 %] [% END %] of [% user_res_nr.size %].</p>
+
+

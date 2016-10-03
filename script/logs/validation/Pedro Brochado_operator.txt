@@ -1,0 +1,46 @@
+[2011/01/16 - 21:43] - validation of Person: Rui Pedro Soares
+[2011/01/16 - 21:44] - validation of Role: ex-administrador da PT
+[2011/01/16 - 21:50] - validation of Role: presidente do conselho de remunerações do BCP
+[2011/01/16 - 21:51] - validation of Person: Joe Berardo
+[2011/01/16 - 21:56] - validation of Person: Pelé
+[2011/01/16 - 21:56] - validation of Role: embaixador do futebol brasileiro
+[2011/01/16 - 22:01] - validation of Person: Paolo Bruni
+[2011/01/16 - 22:01] - validation of Role: presidente da COGECA
+[2011/01/16 - 22:01] - validation of Organization: COGECA
+[2011/01/16 - 22:07] - validation of Person: Donald Moore
+[2011/01/16 - 22:07] - validation of Role: cônsul geral dos Estados Unidos no Haiti
+[2011/01/16 - 22:07] - validation of Organization: Estados Unidos no Haiti
+[2011/01/16 - 22:09] - validation of Person: Ribau Esteves
+[2011/01/16 - 22:10] - validation of Role: presidente da autarquia
+[2011/01/16 - 22:11] - validation of Organization: Autarquia
+[2011/01/16 - 22:12] - validation of Person: António Mota
+[2011/01/16 - 22:12] - validation of Role: presidente da Mota-Engil
+[2011/01/16 - 22:16] - validation of Person: José Mota
+[2011/01/16 - 22:16] - validation of Role: treinador do Leixões
+[2011/01/16 - 22:17] - validation of Organization: Leixões
+[2011/01/16 - 22:25] - validation of Person: Herman Van Rompuy
+[2011/01/16 - 22:25] - validation of Person: Herman Van Rompuy
+[2011/01/16 - 22:26] - validation of Role: presidente da União Europeia
+[2011/01/16 - 22:26] - validation of Organization: União europeia
+[2011/01/16 - 22:27] - validation of Person: Catherine Ashton
+[2011/01/16 - 22:27] - validation of Role: chefe da diplomacia da União Europeia
+[2011/01/16 - 22:31] - validation of Person: Mike Mullen
+[2011/01/16 - 22:31] - validation of Role: Chefe das Forças Armadas dos Estados Unidos
+[2011/01/16 - 22:31] - validation of Organization: Estados Unidos
+[2011/01/16 - 22:33] - validation of Person: James Jones
+[2011/01/16 - 22:33] - validation of Role: conselheiro para a segurança nacional
+[2011/01/16 - 22:36] - validation of Person: Lawrence Cannon
+[2011/01/16 - 22:37] - validation of Person: Joschka Fischer
+[2011/01/16 - 22:38] - validation of Role: ex-ministro alemão dos Negócios Estrangeiros
+[2011/01/16 - 22:40] - validation of Person: Lawrence Summers
+[2011/01/16 - 22:40] - validation of Role: conselheiro para os assuntos económicos de Barack Obama
+[2011/01/16 - 22:42] - validation of Person: Gerhard Ludwig Mueller
+[2011/01/16 - 22:42] - validation of Role: arcebispo de Ratisbona
+[2011/01/16 - 22:44] - validation of Person: Emídio Rangel
+[2011/01/16 - 22:44] - validation of Role: jornalista e ex-director da SIC e da RTP
+[2011/01/16 - 22:45] - validation of Person: Vital Moreira
+[2011/01/16 - 22:45] - validation of Role: cabeça-de-lista do PS às eleições europeias
+[2011/01/16 - 22:46] - validation of Organization: PS às eleições europeias
+[2011/01/16 - 22:47] - validation of Person: Vitalino Canas
+[2011/01/16 - 22:50] - validation of Person: Fernanda Moreira
+[2011/01/16 - 22:51] - validation of Role: presidente do Sindicato do Calçado de Aveiro e Coimbra

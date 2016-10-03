@@ -1,0 +1,436 @@
+
+
+<table id="edit-style">
+	<tr>
+		<th width="40%" > 
+		<form action="[% c.uri_for(c.controller('Person').action_for('edit'), [person.id_person]) %]" method="post">
+		<table id="form-style">
+<tr><th width="1%"></th><th width="100%">Edit Values</th><th width="2%">Valid</th></tr>
+[% FOREACH col = person_rs.result_source.columns %]
+[% IF !col.match('_valid') && col!='id_person' && col!='type' && col!='lastmodified' %]
+[% IF col=='birthday' || col=='deathday' %]
+<tr>
+<th>[% col %]</th>
+<td>
+<input type="text" value="[% person.$col.ymd('-') %]" name="[% col %]"  id="[% col %]" />
+  <script>
+      mCal = new dhtmlxCalendarObject("[% col %]",false,{isYearEditable: true});   
+      mCal.draw();
+  </script>
+
+</td>
+<td>
+[% list = [col, 'valid'] %]
+[% valid_elem = list.join('_') %]
+<input type="checkbox" name="[% valid_elem %]" [% IF person.$valid_elem == "v" %] checked [% END %]>
+</td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+
+</tr>
+[% ELSE %]
+
+
+[% IF col=='sex' %]
+<tr>
+<th>[% col %]</th>
+<td><div>
+<select name="sex">
+<option value="u"></option>
+[% IF person.$col == 'm' %]
+<option value="m" selected>Masculino</option>
+<option value="f">Feminino</option>
+[% END %]
+[% IF person.$col == 'f' %]
+<option value="m">Masculino</option>
+<option value="f" selected>Feminino</option>
+[% ELSE %]
+<option value="m">Masculino</option>
+<option value="f">Feminino</option>
+[% END %]
+</select></div>
+</td>
+<td>
+[% list = [col, 'valid'] %]
+[% valid_elem = list.join('_') %]
+<input type="checkbox" name="[% valid_elem %]" [% IF person.$valid_elem == "v" %] checked [% END %]>
+</td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% ELSE %]
+[% IF col=='incompleteflag' %]
+<tr>
+<th>[% col %]</th>
+<td><div>
+<select name="incompleteflag" value="[% person.$col %]">
+<option value="u"></option>
+[% IF person.$col == 't' %]
+<option value="t" selected>Perfil Incompleto</option>
+<option value="f">Perfil Completo</option>
+[% ELSE %]
+[% IF person.$col == 'f' %]
+<option value="t">Perfil Incompleto</option>
+<option value="f" selected>Perfil Completo</option>
+[% ELSE %]
+<option value="t">Perfil Incompleto</option>
+<option value="f">Perfil Completo</option>
+[% END %]
+[% END %]
+</select></div>
+</td><td></td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% ELSE %]
+<tr>
+<th>[% col %]</th>
+<td><input type="text" name="[% col %]" value="[% person.$col %]" /></td>
+[% IF col!='notes' %]
+<td>
+[% list = [col, 'valid'] %]
+[% valid_elem = list.join('_') %]
+<input type="checkbox" name="[% valid_elem %]" [% IF person.$valid_elem == "v" %] checked [% END %]>
+</td>
+[% ELSE %]
+<td></td>
+[% END %]
+
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% END %]
+[% END %]
+[% END %]
+[% END %]
+[% END %]
+<tr><th></th><th><input type="submit" value="Update"/></th><th></th></tr>
+</table>
+			</form>
+		</th>
+		<td width="60%"> 
+		<table id="edit-style">
+			<tr>
+				<td> <table id="form-style">
+<tr><th width="98%">Add Other Names</th><th width="2%">Valid</th><th>Add</th></tr>
+
+<tr>
+<form action="[% c.uri_for(c.controller('NickName').action_for('add')) %]" method="post">
+<td>
+<input type="text" name="name" value="" />
+
+</td>
+
+<td>
+<input type="checkbox" name="name_valid" checked />
+</td>
+<input type="text" name="fromwho_id" value="[% person.id_person %]" style="display: none;" />
+	<input type="text" name="fromwho_flag" value="p" style="display: none;" />
+<th><input type="submit" value="Add"/></th>
+</form>
+</tr>
+</table>
+ </td>
+			</tr>
+			<tr>
+				<td>
+				<table id="form-style">
+<tr><th width="98%">Edit Other Names</th><th width="2%">Valid</th><th>Save</th><th>Delete</th></tr>
+  [% resul = nick_res_nr.page(nickpage).all %]
+	[% FOREACH res IN resul %]
+	
+<tr>
+<form action="[% c.uri_for(c.controller('NickName').action_for('edit')) %]" method="post">
+<td>
+<input type="text" name="name" value="[% res.name %]" />
+</td>
+
+<td>
+<input type="checkbox" name="name_valid" [% IF res.name_valid == "v" %] checked [% END %] />
+</td>
+<input type="text" name="id_nickname" value="[% res.id_nickname %]" style="display: none;" />
+<input type="text" name="fromwho_id" value="[% res.fromwho_id %]" style="display: none;" />
+<input type="text" name="fromwho_flag" value="[% res.fromwho_flag %]" style="display: none;" />
+<th><input type="submit" value="Save"/></th>
+</form>
+<form action="[% c.uri_for(c.controller('NickName').action_for('del')) %]" method="post">
+<input type="text" name="id_nickname" value="[% res.id_nickname %]" style="display: none;" />
+<input type="text" name="fromwho_flag" value="[% res.fromwho_flag %]" style="display: none;" />
+<input type="text" name="fromwho_id" value="[% res.fromwho_id %]" style="display: none;" />
+<th><input type="submit" value="Delete"/></th>
+</form>
+</tr>
+[% END %]
+</table>
+				
+				</td>
+			</tr>
+			<tr>
+			<td>
+			<table id="form-style">
+<tr><th width="80%">Add Related URL/Reference</th><th width="18%">Type</th><th width="2%">Valid</th><th>Add</th></tr>
+
+<tr>
+<form action="[% c.uri_for(c.controller('RelatedURL').action_for('add')) %]" method="post">
+
+[% FOREACH col = rel_res_nr.result_source.columns %]
+[% IF !col.match('_valid') && col != 'id_relatedurl' && col != 'type' && col != 'fromwho_id' && col!='lastaccess' && col!='fromwho_flag' %]
+<td>
+[% IF col=='type_flag' %]
+	<select name="type_flag">
+		<option value="r">Related Link</option>
+		<option value="b">Reference</option>
+	</select>
+[% ELSE %]
+<input type="text" name="[% col %]" value="" />
+[% END %]
+</td>
+[% END %]
+[% END %]
+
+<td>
+<input type="checkbox" name="name_valid" />
+</td>
+<input type="text" name="fromwho_id" value="[% person.id_person %]" style="display: none;" />
+	<input type="text" name="fromwho_flag" value="p" style="display: none;" />
+<th><input type="submit" value="Add"/></th>
+</form>
+</tr>
+</table>
+			
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<table id="form-style">
+<tr><th width="80%">Edit Related URLs</th><th width="18%">Type</th><th width="2%">Valid</th><th>Save</th><th>Delete</th></tr>
+  [% resul = rel_res_nr.page(relpage).all %]
+	[% FOREACH res IN resul %]
+	
+<tr>
+<form action="[% c.uri_for(c.controller('RelatedURL').action_for('edit')) %]" method="post">
+[% FOREACH col = res.result_source.columns %]
+[% IF !col.match('_valid') && col!='id_relatedurl' && col != 'type' && col != 'fromwho_id' && col!='lastaccess' && col!='fromwho_flag' %]
+<td>
+[% IF col=='type_flag' %]
+	<select name="type_flag">
+		<option value="r">Related Link</option>
+		[% IF res.$col == 'b' %]
+			<option value="b" selected>Reference</option>
+		[% ELSE %]
+		<option value="b">Reference</option>
+		[% END %]
+	</select>
+[% ELSE %]
+
+<input type="text" name="[% col %]" value="[% res.$col %]" />
+[% END %]
+</td>
+[% END %]
+[% END %]
+<td>
+<input type="checkbox" name="name_valid" [% IF res.name_valid == "v" %] checked [% END %] />
+</td>
+<input type="text" name="id_relatedurl" value="[% res.id_relatedurl %]" style="display: none;" />
+<input type="text" name="fromwho_id" value="[% res.fromwho_id %]" style="display: none;" />
+<input type="text" name="fromwho_flag" value="[% res.fromwho_flag %]" style="display: none;" />
+<th><input type="submit" value="Save"/></th>
+</form>
+<form action="[% c.uri_for(c.controller('RelatedURL').action_for('del')) %]" method="post">
+<input type="text" name="id_relatedurl" value="[% res.id_relatedurl %]" style="display: none;" />
+<input type="text" name="fromwho_flag" value="[% res.fromwho_flag %]" style="display: none;" />
+<input type="text" name="fromwho_id" value="[% res.fromwho_id %]" style="display: none;" />
+<th><input type="submit" value="Delete"/></th>
+</form>
+</tr>
+
+[% END %]
+</table>
+			
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<table id="form-style">
+<tr><th width="80%">Edit References</th><th width="18%">Type</th><th width="2%">Valid</th><th>Save</th><th>Delete</th></tr>
+  [% resul = ref_res_nr.page(refpage).all %]
+	[% FOREACH res IN resul %]
+	
+<tr>
+<form action="[% c.uri_for(c.controller('RelatedURL').action_for('edit')) %]" method="post">
+[% FOREACH col = res.result_source.columns %]
+[% IF !col.match('_valid') && col!='id_relatedurl' && col != 'type' && col!= 'fromwho_id' && col!='lastaccess' && col!='fromwho_flag' %]
+<td>
+[% IF col=='type_flag' %]
+	<select name="type_flag">
+		<option value="r">Related Link</option>
+		[% IF res.$col == 'b' %]
+			<option value="b" selected>Reference</option>
+		[% ELSE %]
+		<option value="b">Reference</option>
+		[% END %]
+	</select>
+[% ELSE %]
+
+<input type="text" name="[% col %]" value="[% res.$col %]" />
+[% END %]
+</td>
+[% END %]
+[% END %]
+<td>
+<input type="checkbox" name="name_valid" [% IF res.name_valid == "v" %] checked [% END %] />
+</td>
+<input type="text" name="id_relatedurl" value="[% res.id_relatedurl %]" style="display: none;" />
+<input type="text" name="fromwho_id" value="[% res.fromwho_id %]" style="display: none;" />
+<input type="text" name="fromwho_flag" value="[% res.fromwho_flag %]" style="display: none;" />
+<th><input type="submit" value="Save"/></th>
+</form>
+<form action="[% c.uri_for(c.controller('RelatedURL').action_for('del')) %]" method="post">
+<input type="text" name="id_relatedurl" value="[% res.id_relatedurl %]" style="display: none;" />
+<input type="text" name="fromwho_flag" value="[% res.fromwho_flag %]" style="display: none;" />
+<input type="text" name="fromwho_id" value="[% res.fromwho_id %]" style="display: none;" />
+<th><input type="submit" value="Delete"/></th>
+</form>
+</tr>
+[% END %]
+</table>
+			
+			</td>
+			</tr>
+			
+			
+			<tr>
+			<td>
+			
+			<table id="form-style">
+<tr><th width="80%">Bind Existing Unbinded Role</th><th>Bind</th></tr>
+
+<tr>
+<form action="[% c.uri_for(c.controller('Role').action_for('editbyid')) %]" method="post">
+
+
+<td>
+
+			<select name="id_role">
+			[% FOREACH rol IN empty_roles.all %]
+				<option value="[% rol.id_role %]">[% rol.name %]</option>
+			[% END %]
+			</select>
+		</td>
+
+<input type="text" name="idredir" value="[% person.id_person %]" style="display: none;" />
+<input type="text" name="id" value="[% person.id_person %]" style="display: none;" />
+<input type="text" name="type" value="p" style="display: none;" />
+<th><input type="submit" value="Bind"/></th>
+</form>
+</tr>
+</table>
+			
+			
+			
+			
+		
+			
+			</td>
+			</tr>
+			<tr>
+			<td>
+			
+						<table id="form-style">
+<tr><th width="80%">Create New Role</th><th>Organization</th><th>Create</th><th>Show All</th></tr>
+
+<tr>
+<form action="[% c.uri_for(c.controller('Role').action_for('add')) %]" method="post">
+<td>
+	<input type="text" name="name" value="" />
+
+</td>
+
+<td>
+
+			<select name="id_organization">
+				<option value=""></option>
+			[% FOREACH org IN org_res_nr.all %]
+				<option value="[% org.id_organization %]">[% org.name %]</option>
+			[% END %]
+			</select>
+		</td>
+<input type="text" name="incompleteflag" value="t" style="display: none;" />
+<input type="text" name="id_person" value="[% person.id_person %]" style="display: none;" />
+<input type="text" name="type" value="p" style="display: none;" />
+<th><input type="submit" value="Create"/></th>
+</form>
+<form action="[% c.uri_for_action('/person/profile', [person.id_person]) %]" method="post">
+<input type="text" name="show_all_org" value="1" style="display: none;" />
+<input type="text" name="show_edit" value="1" style="display: none;" />
+<th><input type="submit" value="Show"/></th>
+</form>
+</tr>
+</table>
+			
+			
+			
+			
+			</td>
+			
+			</tr>
+			
+			<tr>
+			<th>
+			
+						<table id="form-style">
+<tr><th width="80%">Unbind/Delete Role</th><th>Unbind</th><th>Delete</th></tr>
+ [% resul = role_res_nr.page(rolepage).all %]
+	[% FOREACH res IN resul %]
+<tr>
+
+<td>
+	[% res.name %]
+
+</td>
+
+<form action="[% c.uri_for(c.controller('Role').action_for('editbyid')) %]" method="post">
+<input type="text" name="idredir" value="[% person.id_person %]" style="display: none;" />
+<input type="text" name="id" value="" style="display: none;" />
+<input type="text" name="id_role" value="[% res.id_role %]" style="display: none;" />
+<input type="text" name="type" value="p" style="display: none;" />
+<th><input type="submit" value="Unbind"/></th>
+</form>
+
+<form action="[% c.uri_for(c.controller('Role').action_for('delbyid')) %]" method="post">
+<input type="text" name="idredir" value="[% person.id_person %]" style="display: none;" />
+<input type="text" name="fromwho_flag" value="r" style="display: none;" />
+<input type="text" name="id_role" value="[% res.id_role %]" style="display: none;" />
+<input type="text" name="type" value="p" style="display: none;" />
+<th><input type="submit" value="Delete"/></th>
+</form>
+[% END %]
+
+</tr>
+</table>
+			
+			</th>
+			
+			</tr>
+		</table>
+		
+		
+		
+		
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+
+
+

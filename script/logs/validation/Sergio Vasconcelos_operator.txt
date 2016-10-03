@@ -1,0 +1,47 @@
+[2011/01/17 - 21:05] - validation of Person: Mahmoud Abbas
+[2011/01/17 - 21:05] - validation of Role: líder palestiniano
+[2011/01/17 - 21:05] - validation of Person: Mahmoud Abbas
+[2011/01/17 - 21:09] - validation of Role: porta-voz do Ministério dos Negócios Estrangeiros chinês
+[2011/01/17 - 21:09] - validation of Person: Ma Zhaoxu
+[2011/01/17 - 21:12] - validation of Person: Ma Zhaoxu
+[2011/01/17 - 21:15] - validation of Person: Madre Teresa de Calcutá
+[2011/01/17 - 21:17] - validation of Person: Miguel Garcia
+[2011/01/17 - 21:17] - validation of Person: Miguel Garcia
+[2011/01/17 - 21:17] - validation of Role: médio do Salamanca
+[2011/01/17 - 21:19] - validation of Person: Mahmud Ahmadinejad
+[2011/01/17 - 21:20] - validation of Role: Presidente iraniano
+[2011/01/17 - 21:24] - validation of Person: Paulo Kassoma
+[2011/01/17 - 21:24] - validation of Role: primeiro-ministro angolano
+[2011/01/17 - 21:27] - validation of Person: Pedro Lourtie
+[2011/01/17 - 21:27] - validation of Role: secretário de Estado dos assuntos europeus
+[2011/01/17 - 21:28] - validation of Person: João Redondo
+[2011/01/17 - 21:28] - validation of Role: coordenador do Serviço de Violência Familiar do CHPC
+[2011/01/17 - 21:30] - validation of Person: Nuno da Câmara Pereira
+[2011/01/17 - 21:30] - validation of Role: líder do PPM
+[2011/01/17 - 21:33] - validation of Person: Pavlos Géroulanos
+[2011/01/17 - 21:38] - validation of Person: Aaron Porter
+[2011/01/17 - 21:38] - validation of Role: presidente do sindicato nacional dos estudantes
+[2011/01/17 - 21:42] - validation of Person: Ambrose Lee
+[2011/01/17 - 21:43] - validation of Organization: Hong Kong
+[2011/01/17 - 21:44] - validation of Person: Donald Tsang
+[2011/01/17 - 21:44] - validation of Role: chefe do Executivo de Hong Kong
+[2011/01/17 - 21:45] - validation of Person: York Chow
+[2011/01/17 - 21:45] - validation of Role: responsável de saúde de Hong Kong
+[2011/01/17 - 21:47] - validation of Person: Emily Lau
+[2011/01/17 - 21:48] - validation of Role: vice-presidente do Partido Democrata de Hong Kong
+[2011/01/17 - 21:49] - validation of Role: dirigente do Alijoense
+[2011/01/17 - 21:49] - validation of Person: Abel Pereira
+[2011/01/17 - 21:49] - validation of Organization: Alijoense
+[2011/01/17 - 21:52] - validation of Person: Abílio Camacho
+[2011/01/17 - 21:52] - validation of Role: presidente da Junta de Freguesia de Santo Onofre
+[2011/01/17 - 21:52] - validation of Organization: Santo Onofre
+[2011/01/17 - 21:54] - validation of Person: Bernardino Vasconcelos
+[2011/01/17 - 21:54] - validation of Role: presidente da Câmara da Trofa
+[2011/01/17 - 21:54] - validation of Organization: Trofa
+[2011/01/17 - 21:56] - validation of Role: ministro dos Petróleos angolano
+[2011/01/17 - 21:56] - validation of Organization: Petróleos angolano
+[2011/01/17 - 21:57] - validation of Person: Botelho de Vasconcelos
+[2011/01/17 - 22:01] - validation of Person: Agostinho Silva
+[2011/01/17 - 22:01] - validation of Role: comandante dos bombeiros da Ribeira Brava
+[2011/01/17 - 22:01] - validation of Organization: Ribeira Brava
+[2011/01/17 - 22:02] - validation of Organization: Salamanca

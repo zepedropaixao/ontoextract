@@ -1,0 +1,50 @@
+[2011/01/18 - 11:46] - validation of Person: Nobuo Tanaka
+[2011/01/18 - 11:47] - validation of Role: director da Agência Internacional de Energia
+[2011/01/18 - 11:50] - validation of Person: Chris Kirkland
+[2011/01/18 - 11:50] - validation of Role: guarda-redes titular
+[2011/01/18 - 11:54] - validation of Person: Manuel Firmino
+[2011/01/18 - 11:55] - validation of Role: presidente da Câmara
+[2011/01/18 - 11:57] - validation of Person: Carlos Reis
+[2011/01/18 - 11:57] - validation of Role: reitor da Universidade Aberta
+[2011/01/18 - 11:57] - validation of Organization: Universidade Aberta
+[2011/01/18 - 12:00] - validation of Person: Keiji Tachikawa
+[2011/01/18 - 12:00] - validation of Role: presidente da agência espacial japonesa Jaxa
+[2011/01/18 - 12:00] - validation of Organization: agência espacial japonesa Jaxa
+[2011/01/18 - 12:03] - validation of Person: Michel Emeyriat
+[2011/01/18 - 12:05] - validation of Role: director de operações da Air France em Roissy
+[2011/01/18 - 12:05] - validation of Organization: Air France em Roissy
+[2011/01/18 - 12:07] - validation of Person: José Jorge Letria
+[2011/01/18 - 12:07] - validation of Role: presidente da SPA
+[2011/01/18 - 12:09] - validation of Person: Amílcar Silva
+[2011/01/18 - 12:09] - validation of Role: médico da União de Leiria
+[2011/01/18 - 12:11] - validation of Person: Renato Matos
+[2011/01/18 - 12:11] - validation of Role: vereador socialista no executivo camarário
+[2011/01/18 - 12:13] - validation of Person: Geir Lundestad
+[2011/01/18 - 12:14] - validation of Role: director do Instituto Nobel
+[2011/01/18 - 12:14] - validation of Organization: Instituto Nobel
+[2011/01/18 - 12:15] - validation of Person: Raniero Cantalamessa
+[2011/01/18 - 12:15] - validation of Role: pregador da Casa Pontifícia
+[2011/01/18 - 12:15] - validation of Organization: Casa Pontifícia
+[2011/01/18 - 12:17] - validation of Person: Paulo Pinheiro
+[2011/01/18 - 12:17] - validation of Role: administrador do circuito
+[2011/01/18 - 12:19] - validation of Person: Richard Trumka
+[2011/01/18 - 12:19] - validation of Role: presidente da AFL-CIO
+[2011/01/18 - 12:20] - validation of Organization: AFL-CIO
+[2011/01/18 - 12:21] - validation of Person: Carlos Cabreiro
+[2011/01/18 - 12:21] - validation of Role: responsável pela investigação dos crimes informáticos
+[2011/01/18 - 12:23] - validation of Person: Gorka Iraizoz
+[2011/01/18 - 12:23] - validation of Role: guarda-redes do Athletic Bilbao
+[2011/01/18 - 12:23] - validation of Organization: Athletic Bilbao
+[2011/01/18 - 12:24] - validation of Person: Joaquina Madeira
+[2011/01/18 - 12:25] - validation of Role: presidente do Conselho Directivo da Casa Pia
+[2011/01/18 - 12:25] - validation of Organization: Casa Pia
+[2011/01/18 - 12:28] - validation of Person: Christine Lagarde
+[2011/01/18 - 12:28] - validation of Person: Christine Lagarde
+[2011/01/18 - 12:28] - validation of Role: ministro da Economia
+[2011/01/18 - 12:30] - validation of Person: Sofia Meneses
+[2011/01/18 - 12:31] - validation of Role: representante do grupo
+[2011/01/18 - 12:35] - validation of Person: Daniel Sousa Magalhães
+[2011/01/18 - 12:35] - validation of Role: oficial de dia do Comando Metropolitano da PSP
+[2011/01/18 - 12:37] - validation of Person: Mark Van Bommel
+[2011/01/18 - 12:37] - validation of Role: médio do Bayern Munique
+[2011/01/18 - 12:37] - validation of Organization: Bayern Munique

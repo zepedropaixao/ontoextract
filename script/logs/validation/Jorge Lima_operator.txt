@@ -1,0 +1,41 @@
+[2011/01/16 - 21:02] - validation of Person: António Guterres
+[2011/01/16 - 21:02] - validation of Role: ex-primeiro-ministro de Portugal
+[2011/01/16 - 21:02] - validation of Organization: Portugal
+[2011/01/16 - 21:03] - validation of Person: Carlos Castro
+[2011/01/16 - 21:08] - validation of Person: Teixeira dos Santos
+[2011/01/16 - 21:10] - validation of Role: ministro das Finanças português
+[2011/01/16 - 21:10] - validation of Organization: Finanças português
+[2011/01/16 - 21:11] - validation of Person: Augusto Santos Silva
+[2011/01/16 - 21:12] - validation of Role: ministro da Defesa
+[2011/01/16 - 21:12] - validation of Person: Rui Pereira
+[2011/01/16 - 21:13] - validation of Role: ministro da Administração Interna
+[2011/01/16 - 21:13] - validation of Organization: Amdinistração Interna
+[2011/01/16 - 21:16] - validation of Person: Nuno Severiano Teixeira
+[2011/01/16 - 21:16] - validation of Person: Nuno Severiano Teixeira
+[2011/01/16 - 21:17] - validation of Role: ministro da Defesa Nacional
+[2011/01/16 - 21:17] - validation of Organization: Defesa Nacional
+[2011/01/16 - 21:22] - validation of Person: Francisco Ramos
+[2011/01/16 - 21:23] - validation of Role: secretário de Estado Adjunto e da Saúde
+[2011/01/16 - 21:24] - validation of Person: Manuel Pizarro
+[2011/01/16 - 21:24] - validation of Role: Secretário de Estado da Saúde
+[2011/01/16 - 21:25] - validation of Person: Jaime Silva
+[2011/01/16 - 21:30] - validation of Person: Jack Straw
+[2011/01/16 - 21:30] - validation of Person: Jack Straw
+[2011/01/16 - 21:32] - validation of Person: Jackson Lago
+[2011/01/16 - 21:33] - validation of Person: Phil Jackson
+[2011/01/16 - 21:34] - validation of Role: técnico do Los Angeles Lakers
+[2011/01/16 - 21:34] - validation of Organization: Los Angeles Lakers
+[2011/01/16 - 21:35] - validation of Person: Michael Jackson
+[2011/01/16 - 21:37] - validation of Person: Jim McCormick
+[2011/01/16 - 21:38] - validation of Person: Jim McCormick
+[2011/01/16 - 21:39] - validation of Person: Carl Bildt
+[2011/01/16 - 21:39] - validation of Role: ministro sueco dos Negócios Estrangeiros
+[2011/01/16 - 21:40] - validation of Person: Andreas Carlgren
+[2011/01/16 - 21:41] - validation of Role: ministro do Ambiente
+[2011/01/16 - 21:42] - validation of Person: Giovanni Bisignani
+[2011/01/16 - 21:42] - validation of Role: Director Geral da IATA
+[2011/01/16 - 21:44] - validation of Person: James Gray
+[2011/01/16 - 21:44] - validation of Person: James Gray
+[2011/01/16 - 21:44] - validation of Role: realizador
+[2011/01/16 - 21:45] - validation of Person: Chris Grayling
+[2011/01/16 - 21:46] - validation of Role: Secretário do Trabalho e das Pensões no Reino Unido

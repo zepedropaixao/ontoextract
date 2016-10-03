@@ -1,0 +1,41 @@
+<table>
+	<tr>
+		<td style="vertical-align:middle"> <h2>OntoExtract > User > [% user.name %]</h2> </td>
+					[% IF c.user.get('role') == 'admin' || c.user.get('id_user') == user.id_user %]
+		<td style="vertical-align:middle"><input type="button" value="Edit" onclick="showHideDiv()" /> </td>
+		[% END %]
+		[% IF c.user.get('role') == 'admin' %]
+				<td style="vertical-align:middle"> <input type="button" onClick="if(confirm('Do you want to delete [% user.name %]?'))
+location.href='[% c.uri_for_action('/user/del', [user.id_user]) %]';" value="Delete"></td>
+		
+		[% END %]
+	</tr>
+</table>
+[% IF c.user.get('id_user') == user.id_user || c.user.get('role') == 'admin' %]
+	<div id="editdiv" style="display: none;">
+[% PROCESS components/edit_user.tt %] <br /><br />
+	</div>
+[% END %]
+
+<table id="form-style">
+[% FOREACH col = user_rs.result_source.columns %]
+[% IF col == 'lastaccess' %]
+[% laccessd = user.$col.dmy('-') %]
+[% laccessh = user.$col.hms(':') %]
+<tr>
+	<th>[% col %]</th>
+	<td>[% laccessd %] às [% laccessh %]</td>
+	
+</tr>
+
+[% ELSE %]
+<tr>
+	<th>[% col %]</th>
+	<td>[% user.$col %]</td>
+	
+</tr>
+[% END %]
+[% END %]
+</table>
+
+

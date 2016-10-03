@@ -1,0 +1,49 @@
+[2011/01/16 - 21:38] - validation of Person: António Nogueira Leite
+[2011/01/16 - 21:39] - validation of Role: conselheiro nacional do PSD
+[2011/01/16 - 21:42] - validation of Person: João Loureiro
+[2011/01/16 - 21:43] - validation of Role: especialista em macroeconomia
+[2011/01/16 - 21:45] - validation of Person: Jorge Pulido Valente
+[2011/01/16 - 21:46] - validation of Role: presidente da Câmara de Beja
+[2011/01/16 - 21:47] - validation of Person: Armindo Abreu
+[2011/01/16 - 21:47] - validation of Role: candidato socialista e presidente da Câmara de Amarante
+[2011/01/16 - 21:48] - validation of Person: Jardim Gonçalves
+[2011/01/16 - 21:49] - validation of Role: ex-presidente do BCP
+[2011/01/16 - 21:51] - validation of Person: Francisco Ribeiro Telles
+[2011/01/16 - 21:51] - validation of Role: embaixador português em Luanda
+[2011/01/16 - 21:57] - validation of Person: Costa Monteiro
+[2011/01/16 - 21:58] - validation of Role: presidente do IPIMAR
+[2011/01/16 - 22:01] - validation of Person: Amílcar Ramos Ferreira
+[2011/01/16 - 22:02] - validation of Role: director da Faculdade de Farmácia
+[2011/01/16 - 22:03] - validation of Organization: Farmácia
+[2011/01/16 - 22:05] - validation of Person: Abraão Lopes
+[2011/01/16 - 22:06] - validation of Role: director-geral da Indústria e Energia cabo-verdiano
+[2011/01/16 - 22:08] - validation of Person: Carlos Coelho
+[2011/01/16 - 22:09] - validation of Role: presidente da Junta de São João da Madeira
+[2011/01/16 - 22:11] - validation of Person: Angel Martin Gonzalez
+[2011/01/16 - 22:12] - validation of Role: director desportivo do Osasuna
+[2011/01/16 - 22:14] - validation of Organization: Osasuna
+[2011/01/16 - 22:15] - validation of Person: Danny Jordan
+[2011/01/16 - 22:15] - validation of Role: director do Comité Organizador do Mundial da África do Sul
+[2011/01/16 - 22:16] - validation of Person: Michael Bloomberg
+[2011/01/16 - 22:17] - validation of Role: presidente da Câmara de Nova Iorque
+[2011/01/16 - 22:20] - validation of Person: Jean-Marie Le Pen
+[2011/01/16 - 22:21] - validation of Role: líder histórico da extrema direita francesa
+[2011/01/16 - 22:22] - validation of Person: Jean-Marie Le Pen
+[2011/01/16 - 22:22] - validation of Person: Michael Bloomberg
+[2011/01/16 - 22:25] - validation of Person: Morgan Tsvangirai
+[2011/01/16 - 22:25] - validation of Role: primeiro-ministro do Zimbabué
+[2011/01/16 - 22:26] - validation of Organization: Zimbabué
+[2011/01/16 - 22:32] - validation of Person: Abdul Razak
+[2011/01/16 - 22:32] - validation of Role: vice-ministro dos Recursos Minerais
+[2011/01/16 - 22:36] - validation of Person: Jim Oâ€™Sullivan
+[2011/01/16 - 22:36] - validation of Role: economista chefe do MF Global
+[2011/01/16 - 22:36] - validation of Organization: MF Global
+[2011/01/16 - 22:38] - validation of Person: Nick Smith
+[2011/01/16 - 22:39] - validation of Role: ministro neozelandês do Meio Ambiente
+[2011/01/16 - 22:41] - validation of Person: Amy Bishop
+[2011/01/16 - 22:41] - validation of Role: autor do tiroteio foi uma professora
+[2011/01/16 - 22:42] - validation of Person: Pascal Lamy
+[2011/01/16 - 22:42] - validation of Role: director geral da OMC
+[2011/01/16 - 22:43] - validation of Organization: IPIMAR
+[2011/01/16 - 22:44] - validation of Organization: Amarante
+[2011/01/16 - 22:44] - validation of Organization: Nova Iorque

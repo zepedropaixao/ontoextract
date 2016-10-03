@@ -1,0 +1,41 @@
+[2011/01/15 - 18:14] - validation of Person: Alain Joyandet
+[2011/01/15 - 18:15] - validation of Role: secretário de Estado da Cooperação
+[2011/01/15 - 18:21] - validation of Person: Alan Johnson
+[2011/01/15 - 18:24] - validation of Person: Jorge Lorenzo
+[2011/01/15 - 18:25] - validation of Role: piloto da Yamaha
+[2011/01/15 - 18:25] - validation of Organization: Yamaha
+[2011/01/15 - 18:27] - validation of Person: Celso Amorim
+[2011/01/15 - 18:28] - validation of Role: ministro das Relações Exteriores brasileiro
+[2011/01/15 - 18:28] - validation of Organization: Relações Exteriores brasileiro
+[2011/01/15 - 18:31] - validation of Person: Goodluck Jonathan
+[2011/01/15 - 18:31] - validation of Organization: Nigéria
+[2011/01/15 - 18:33] - validation of Person: David Choquehuanca
+[2011/01/15 - 18:34] - validation of Role: ministro boliviano dos Negócios Estrangeiros
+[2011/01/15 - 18:34] - validation of Organization: Negócios Estrangeiros
+[2011/01/15 - 18:37] - validation of Person: Bob Bradley
+[2011/01/15 - 18:40] - validation of Person: Marcelo Ebrard
+[2011/01/15 - 18:43] - validation of Person: Mike Krzyzewski
+[2011/01/15 - 18:43] - validation of Role: técnico da selecção norte-americana de basquetebol
+[2011/01/15 - 18:43] - validation of Organization: basquetebol
+[2011/01/15 - 18:44] - validation of Person: Boris Johnson
+[2011/01/15 - 18:45] - validation of Organization: Reino Unido
+[2011/01/15 - 18:47] - validation of Person: José Saramago
+[2011/01/15 - 18:47] - validation of Role: escritor português e Nobel da Literatura
+[2011/01/15 - 18:47] - validation of Organization: Literatura
+[2011/01/15 - 18:50] - validation of Person: Carlos César
+[2011/01/15 - 18:50] - validation of Person: Carlos César
+[2011/01/15 - 18:51] - validation of Role: presidente do governo açoriano
+[2011/01/15 - 18:51] - validation of Organization: Governo açoriano
+[2011/01/15 - 18:52] - validation of Person: Belmiro de Azevedo
+[2011/01/15 - 18:56] - validation of Person: Ricardo Carvalho
+[2011/01/15 - 18:56] - validation of Role: defesa central do Real Madrid
+[2011/01/15 - 18:56] - validation of Organization: Real Madrid
+[2011/01/15 - 18:58] - validation of Person: Luisão
+[2011/01/15 - 18:58] - validation of Role: defesa central do Benfica
+[2011/01/15 - 18:59] - validation of Organization: Benfica
+[2011/01/15 - 19:09] - validation of Person: Otelo Saraiva de Carvalho
+[2011/01/15 - 19:09] - validation of Role: comandante operacional da Revolução
+[2011/01/15 - 19:15] - validation of Person: Joana Amaral Dias
+[2011/01/15 - 19:22] - validation of Person: Ana Paula Laborinho
+[2011/01/15 - 19:28] - validation of Person: Pedro do Carmo
+[2011/01/15 - 19:28] - validation of Role: director-adjunto da PJ

@@ -1,0 +1,177 @@
+
+/* Appearance calendar standart view */
+.dhtmlxcalendar{
+	background: #e8edff;
+	color: #039;
+	border: 4px solid #aabcfe;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+	z-index:99;
+	height:178px;
+	width:178px;
+	overflow: hidden;
+}
+/* Style for iframe (must have same values as real dimensions of calendar) */
+.dhtmlxcalendar_ifr,
+.dhtmlxcalendar_mini_ifr,
+.dhtmlxcalendar_maxi_ifr,
+.dhtmlxcalendar_long_ifr {
+  height:173px;
+  width:178px;
+}
+                                                                                                                                                                     
+.dhtmlxcalendar_maxi_ifr {
+  height: 176px;
+}
+
+/* Appearance header of calendar in standard view */
+.dhtmlxcalendar .winHeader {
+	height: 13px;
+	width:146px;
+  -moz-user-select:none;
+  border: 0;
+  margin-left: 16px;
+  margin-top: 5px;
+  margin-bottom: -4px;
+}
+/* Appearance header title */
+.dhtmlxcalendar .winTitle {
+	color: #039;
+	font-size:11px;
+	float:left;
+	cursor: move;	
+	width: 100px;
+}
+/* Calendar body */
+.dhtmlxcalendar .entbox{
+	width:145px;
+	clear:both;
+	margin:16px;
+}
+/* Common style for each cell of calendar */
+.dhtmlxcalendar td {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+	text-align:center;
+}
+
+
+
+/* Month left button */
+.dhtmlxcalendar .dxcalmonth td.month_btn_left,
+.dhtmlxcalendar .dxcalmonth td.month_btn_right {
+	background: url(../images/datepicker/btns.gif) no-repeat;
+	background-position:-60px;
+	width:6px;
+}
+/* Month right button */
+.dhtmlxcalendar .dxcalmonth td.month_btn_right {
+	background-position:-66px;
+}
+
+.dhtmlxcalendar .dxcalmonth td.month_btn_left span,
+.dhtmlxcalendar .dxcalmonth td.month_btn_right span{
+	visibility: hidden;
+}
+
+.dhtmlxcalendar .dxcalmonth table {
+  margin: auto;
+}
+
+/* Common styles for months and days labels */
+.dhtmlxcalendar .dxcaldlabel td,
+.dhtmlxcalendar .dxcaldays td,
+.dhtmlxcalendar .dxcaldays_ie td{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	color: #aabcfe;
+}
+
+/* Appearance days */
+.dhtmlxcalendar .dxcaldays td,
+.dhtmlxcalendar .dxcaldays_ie td{
+	border: 0px;
+	cursor: pointer;
+}
+/* Appearance days for IE */
+.dhtmlxcalendar .dxcaldays_ie td{
+	height:16px;
+}
+/* Comma between month and year */
+.dhtmlxcalendar td.comma{
+	visibility:visible;
+}
+/* Common style for month and year labels */
+.dhtmlxcalendar div.planeMonth,
+.dhtmlxcalendar div.planeYear {
+	height: auto;
+	overflow: hidden;
+}
+/* Appearance year */
+div.dhtmlxcalendar div.planeYear{
+	display:inline;
+	width:28px;
+}
+
+/* begin: days colors */
+/* Days of this month */
+.dhtmlxcalendar td.thismonth{
+	color:#039;
+	padding:1px;
+}
+/* Days of other months */
+.dhtmlxcalendar td.othermonth{
+	visibility:hidden;
+	
+}
+/* Weekend */
+.dhtmlxcalendar td.weekend{
+	color:#669;
+	padding:1px;
+}
+
+/* Selected day */
+.dhtmlxcalendar td.selected{
+	background-color: #36b1df;
+	color:white !important;
+}
+/* Current day */
+.dhtmlxcalendar td.current{
+	font-weight:bold  !important;
+	color:#039;
+}
+/* Hovered day */
+.dhtmlxcalendar td.hover{
+	background: #039;
+	color: #e8edff;
+	padding:0px;
+	font-weight:bold;
+}
+
+/* end: silverlight */
+
+/* begin: dhtmlxRichSelector */
+.dhtmlxcalendar div.dhtmlxRichSelector {
+	position: relative;
+	background-color:#ffffff;
+	display: block;
+	width: 1px;
+	height: 1px;
+}
+.dhtmlxcalendar textarea.dhtmlxRichSelector,
+.dhtmlxcalendar select.dhtmlxRichSelector {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+	position: absolute;
+	overflow: hidden;
+	border-width: 0px;
+	z-index:100;
+	left: 0px;
+	top: 0px;
+}
+
+/* end: dhtmlxRichSelector */

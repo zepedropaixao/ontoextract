@@ -1,0 +1,82 @@
+
+<form action="[% c.uri_for(c.controller('user').action_for('edit'), [user.id_user]) %]" method="post">
+<table id="form-style">
+[% FOREACH col = user_rs.result_source.columns %]
+[% IF col!='id_user' && col!='username' && col!='lastaccess' %]
+[% IF col=='password' %]
+<tr>
+<th>[% col %]</th>
+<td><input type="password" name="[% col %]" /></td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% ELSE %]
+[% IF col=='role' %]
+[% IF c.user.get('role') == 'admin' %]
+<tr>
+<th>[% col %]</th>
+<td>
+<select name="role">
+<option value="normal">Normal</option>
+[% IF user.$col == 'operator' %]
+<option value="operator" selected>Operator</option>
+<option value="admin">Administrator</option>
+[% ELSE %]
+[% IF user.$col == 'admin' %]
+<option value="operator">Operator</option>
+<option value="admin" selected>Administrator</option>
+[% ELSE %]
+<option value="operator">Operator</option>
+<option value="admin">Administrator</option>
+[% END %]
+[% END %]
+</select>
+</td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% ELSE %]
+<input type="text" name="role" value="[% user.role %]" style="display: none;" />
+[% END %]
+[% ELSE %]
+[% IF col=='status' %]
+[% IF c.user.get('role') == 'admin' %]
+<tr>
+<th>[% col %]</th>
+<td>
+<select name="status">
+<option value="active">Active</option>
+[% IF user.$col == 'inactive' %]
+<option value="inactive" selected>Inactive</option>
+[% ELSE %]
+<option value="inactive">Inactive</option>
+[% END %]
+</select>
+</td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% ELSE %]
+<input type="text" name="status" value="[% user.status %]" style="display: none;" />
+[% END %]
+[% ELSE %]
+
+<tr>
+<th>[% col %]</th>
+<td><input type="text" name="[% col %]" value="[% user.$col %]" /></td>
+[% IF errors.$col %]
+<td><span style="color: red;">[% errors.$col %]</span></td>
+[% END %]
+</tr>
+[% END %]
+[% END %]
+[% END %]
+[% END %]
+[% END %]
+<tr><th></th><th><input type="submit" value="Update"/></th></tr>
+</table>
+</form>
+

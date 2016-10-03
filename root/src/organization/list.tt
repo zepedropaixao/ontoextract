@@ -1,0 +1,98 @@
+<table>
+	<tr>
+		<td width="60%"> <h2>OntoExtract > Organization/Entity > List</h2></td>
+		<td width="10%"> [% IF c.user.get('role') == 'operator' || c.user.get('role') == 'admin' %]
+		<input type="button" onClick="location.href='[% c.uri_for_action('/organization/add') %]'" value="Add Organization">
+		[% END %]</td>
+		<td width="30%">
+			
+			<form id="searchquery" action="[% c.uri_for(c.controller('Organization').action_for('search')) %]" method="post">
+			<input type="text" name="searchquery" />
+			<input type="submit" value="Search"/>
+			</form>
+		</td>
+	</tr>
+</table>
+
+[% startorg = c.stash.orgpage %]
+[% endorg = startorg+9 %]
+<p id="pagecontrol">
+[% IF startorg > 9 %]
+[% previousorgpage = startorg+(-10) %]
+<a href="[% c.uri_for(c.controller('Organization').action_for('results'), [previousorgpage]) %]" ><</a>
+[% ELSE %]
+[% IF (startorg < 9 && startorg > 0) %]
+[% previousorgpage = 0 %]
+<a href="[% c.uri_for(c.controller('Organization').action_for('results'), [previousorgpage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF total_org_rs > endorg+1 %]
+[% nextorgpage = endorg+1 %]
+<a href="[% c.uri_for(c.controller('Organization').action_for('results'), [nextorgpage]) %]" >></a>
+[% END %]
+Results [% startorg+1 %]-[% IF endorg+1 > total_org_rs %][% total_org_rs %] [% ELSE %] [% endorg+1 %] [% END %] of [% total_org_rs %].</p>
+<table id="lista">
+    <thead>
+    	<tr>
+        <th scope="col">Logo</th>
+	<th scope="col">Name</th>
+
+	<th scope="col">Country</th>
+	<th scope="col">Foundation Day</th>
+	<th scope="col">Abstract</th>
+
+        </tr>
+    </thead>
+    <tbody>
+    [% resul = org_res_nr.slice(startorg,endorg) %]
+	[% FOREACH res IN resul %]
+	[% IF res %]
+    	<tr 
+    	onmouseover="ChangeRow(this, true);" 
+              onmouseout="ChangeRow(this, false);"
+    	onclick="DoNav('[% c.uri_for_action('/organization/profile', [res.id_organization]) %]');">
+			<td>
+			[% IF res.logo != "" %]
+			<img src="[% res.logo %]" alt="no picture" width="60px" />
+			[% ELSE %]
+			<img src="/static/images/na.png" alt="no picture" width="60px" />
+			[% END %]	
+			
+			
+			</td>
+    	[% FOREACH col = res.result_source.columns %]
+		[% IF !col.match('_valid') && col!='slogan' && col!='type' && col!='id_organization' && col!='logo' && col!='slogan' && col!='hqaddress' && col!='endday' && col!='articlelink' && col!='notes' && col!='incompleteflag' && col!='tagharem' && col!='lastmodified' %]
+		[% IF col=='foundationday' %]
+			<td>[% res.$col.ymd('-') %] </td>
+		[% ELSE %]
+			[% IF col=='abstract' %]
+		[% USE abs = String(res.$col) %]
+			<td>[% abs.truncate(325, ' [...]') %]  </td>
+		[% ELSE %]
+        	<td>[% res.$col %]</td>
+        [% END %]
+		[% END %]
+        [% END %]
+        [% END %]
+	
+        
+        </tr>
+        [% END %]
+        [% END %]
+    </tbody>
+</table>
+<p id="pagecontrol">
+[% IF startorg > 9 %]
+[% previousorgpage = startorg+(-10) %]
+<a href="[% c.uri_for(c.controller('Organization').action_for('results'), [previousorgpage]) %]" ><</a>
+[% ELSE %]
+[% IF (startorg < 9 && startorg > 0) %]
+[% previousorgpage = 0 %]
+<a href="[% c.uri_for(c.controller('Organization').action_for('results'), [previousorgpage]) %]" ><</a>
+[% END %]
+[% END %]
+[% IF total_org_rs > endorg+1 %]
+[% nextorgpage = endorg+1 %]
+<a href="[% c.uri_for(c.controller('Organization').action_for('results'), [nextorgpage]) %]" >></a>
+[% END %]
+Results [% startorg+1 %]-[% IF endorg+1 > total_org_rs %][% total_org_rs %] [% ELSE %] [% endorg+1 %] [% END %] of [% total_org_rs %].</p>

@@ -1,0 +1,138 @@
+[% IF template.name.match('history');
+     debug("Passing page through as text: $template.name");
+     content;
+   ELSE;
+     debug("Applying HTML page layout wrappers to $template.name\n");
+     %]
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>OntoExtract</title>
+<link rel="stylesheet" href="/static/css/ontoextract.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/static/css/datepicker.css">
+<script src="/static/java/dhtmlxcommon.js"></script>
+<script src="/static/java/dhtmlxcalendar.js"></script>
+<script src="/static/java/clickrow.js"></script>
+<script src="/static/java/showhidediv.js"></script>
+<script src="/static/java/showhidevalidation.js"></script>
+<script src="/static/java/popup.js"></script>
+</head>
+<body>
+<div id="header">
+<table>
+	<tr>
+		<td width="88%"> <h1>OntoExtract</h1> </td>
+		<td width="12%">
+		
+
+[% IF ! c.user_exists %]
+		<form action="[% c.uri_for('/clearance/login') %]" method="post" accept-charset="utf-8">
+	<table id="login-table">
+		<tr>
+			<th>
+				<label for="username">Username</label>
+			</th>
+			<td>
+				<input type="text" name="username" value="" id="username"/>
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="password">Password</label>
+			</th>
+			<td>
+				<input type="password" name="password" value="" id="password"/>
+			</td>
+		</tr>
+</table>
+</td>
+<td>
+<table>
+	<tr>
+		<td><input type="submit" value="Login &rarr;"> </td>
+	</tr>
+</table>
+</td>
+</form>
+[% ELSE %]
+<table id="login-table">
+<tr>
+<th>Welcome</th>
+<th>[% c.user.get('name') %]!</th>
+</tr>
+</table>
+</td>
+<td>
+<table>
+	<tr>
+		<td><input type="button" onClick="location.href='[% c.uri_for('/clearance/logout') %]'" value="Logout &rarr;"> </td>
+	</tr>
+</table>
+</td>
+[% END %]
+</div>
+		
+		
+		
+	</tr>
+</table>
+
+
+
+
+<div id="navbar">
+<a href="[% c.uri_for('/') %]">Home</a>
+[% IF c.user_exists() && (c.user.get('role') == 'admin' || c.user.get('role') == 'operator')%]
+<a href="[% c.uri_for(c.controller('User').action_for('results'), [0]) %]">User List</a>
+[% END %]
+[% IF c.user_exists() && c.user.get('role') == 'admin' %]
+[% END %]
+[% IF c.user_exists() %]
+<a href="[% c.uri_for(c.controller('Person').action_for('results'), [0]) %]">Person List</a>
+<a href="[% c.uri_for(c.controller('Organization').action_for('results'), [0]) %]">Organization List</a>
+<a href="[% c.uri_for(c.controller('Role').action_for('results'), [0]) %]">Role List</a>
+<a href="[% c.uri_for_action('/user/profile',[c.user.get('id_user')]) %]">Edit Profile</a>
+[% END %]
+</div>
+
+</div>
+
+<div id="contentarea">
+[% IF message %]
+<center>
+<div class="messageblock">[% message %]</div>
+</center>
+[% IF c.user_exists() && c.user.get('status') == 'active' %]
+<div id="conteudo">
+[% content %]
+</div>
+[% END %]
+[% ELSE %]
+
+[% IF c.user_exists() && c.user.get('status') == 'active' %]
+<div id="conteudo">
+[% content %]
+</div>
+[% ELSE %]
+[% IF c.user_exists() && c.user.get('status') == 'inactive' %]
+<center>
+<div class="messageblock">Your account is inactive, please contact Administrator.</div>
+</center>
+[% ELSE %]
+<center>
+<div class="messageblock">Please login to access this page.</div>
+</center>
+[% END %]
+[% END %]
+[% END %]
+</div>
+
+<div id="footer">
+
+</div>
+</body>
+</html>
+[% END %]

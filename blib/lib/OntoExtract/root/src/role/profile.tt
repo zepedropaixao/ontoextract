@@ -1,0 +1,320 @@
+
+<table>
+	<tr>
+		<td style="vertical-align:middle"> <h2>OntoExtract > Ergonym/Role > [% role.name %] <div class="validation" style="display: inline;">
+		[% IF role.name_valid == 'v' %]
+		
+		<img src="/static/images/check.png" alt="v" width="15px" />[% ELSE %]
+					<img src="/static/images/cross.png" alt="x" width="15px" />
+					[% END %] </div></h2> </td>
+					<td style="vertical-align:middle">
+						<INPUT TYPE=BUTTON onClick="return popup('[% c.uri_for_action('/role/history', [role.id_role]) %]',300,300);" VALUE="Show History View">
+					</td>
+					[% IF c.user.get('role') == 'operator' || c.user.get('role') == 'admin' %]
+		<td style="vertical-align:middle"><input type="button" value="Edit" onclick="showHideDiv()" /> </td>
+		
+				<td style="vertical-align:middle"> <input type="button" onClick="if(confirm('Do you want to delete [% role.name %]?\n\nBy doing so you will also delete related:\n - nicknames,\n - related urls, \n - references\n - all the information that was automatically gathered from this point onward.'))
+location.href='[% c.uri_for_action('/role/del', [role.id_role]) %]';" value="Delete"></td>
+		
+		<td style="vertical-align:middle"> <input type="button" onClick="if(confirm('Do you want to delete [% role.name %]?'))
+location.href='[% c.uri_for_action('/role/del', [role.id_role]) %]';" value="Delete"></td>
+		[% END %]
+		<td style="vertical-align:middle"><input type="button" value="Hide/Show Validation" onclick="showHideValidation()" /></td>
+	</tr>
+</table>
+
+
+[% IF c.user.get('role') == 'operator' || c.user.get('role') == 'admin' %]
+	[% IF show_edit != 1 %]
+	<div id="editdiv" style="display: none;">
+	[% ELSE %]
+	<div id="editdiv" style="display: inline;">
+	[% END %]
+		[% PROCESS components/edit_role.tt %]<br /><br />
+	</div>
+[% END %]
+
+
+<table id="profile-style">
+	<tr>
+		<th>
+			<table id="profile">
+			[% FOREACH col = role_rs.result_source.columns %]
+			[% IF !col.match('_valid') && col!='id_role' && col!='type' && col!='name' && col!='articlelink' && role.$col != '' %]
+				<tr>
+						[% IF col=='id_person' %]
+							<th>Person</th>
+							<td><a href="[% c.uri_for_action('/person/profile', [role.id_person]) %]">[% person_assoc.name %]</a></td>
+						[% ELSE %]
+						[% IF col=='id_organization' %]
+							<th>Organization</th>
+							<td><a href="[% c.uri_for_action('/organization/profile', [role.id_organization]) %]">[% organization_assoc.name %]</a></td>
+						[% ELSE %]
+						[% IF col=='startdate' || col=='enddate' %]
+							<th>[% IF col=='startdate' %]Start Date[% ELSE %]End Date[% END %]</th>
+							<td>[% role.$col.dmy('-') %] </td>
+						[% ELSE %]
+						[% IF col=='abstract' %]
+							<th>Abstract</th>
+							<td>[% role.$col %] <a href="[% role.articlelink %]">Read More</a></td>
+						[% ELSE %]
+						[% IF col=='incompleteflag' %]
+							<th>Completeness</th>
+							[% IF role.$col == 't' %]
+								<td>Perfil Incompleto</td>
+							[% ELSE %]
+							[% IF role.$col == 'f' %]
+								<td>Perfil Completo</td>
+							[% ELSE %]
+								<td>Não Definido</td>
+							[% END %]
+							[% END %]
+							[% ELSE %]
+						[% IF col == 'lastmodified' %]
+							[% lmd = role.$col.dmy('-') %]
+							[% lmh = role.$col.hms('-') %]
+							[% lmd_array = lmd.split('-') %]
+							[% lmh_array = lmh.split('-') %]
+							[% year = lmd_array.pop %]
+							[% month = lmd_array.pop - 1 %]
+							[% day = lmd_array.pop %]
+							[% sec = lmh_array.pop %]
+							[% min = lmh_array.pop %]
+							[% hour = lmh_array.pop %]
+							<th>Last Modified</th>
+							<td>[% time_converter(sec,min,hour,day,month,year) %] ago</td>
+						[% END %][% END %][% END %][% END %][% END %][% END %]
+						<td>
+							<div class="validation" style="display: inline;">
+							[% IF col!='id_person' && col!='id_organization' && col!='incompleteflag' && col!='lastmodified' %]
+								[% list = [col, 'valid'] %]
+								[% valid_elem = list.join('_') %]
+								[% IF role.$valid_elem == 'v' %]
+									<img src="/static/images/check.png" alt="v" width="15px" />
+								[% ELSE %]
+									<img src="/static/images/cross.png" alt="x" width="15px" />
+								[% END %]
+							[% END %]
+							</div>
+						</td>
+				</tr>
+			[% END %][% END %]
+			[% cert = get_certainty(role.id_role, 'r') %]
+			<tr>
+				<th>Certainty</th>
+				<td>[% cert.0 %]%</td>
+	<td></td>
+				</tr>
+				<tr>
+				<th>Frequency</th>
+				<td>[% cert.1 %] Hits</td>
+				<td></td>
+				</tr>
+			</table>
+		</th>
+	</tr>
+</table>
+<table id="role-style">
+<tr>
+<th>
+	<table id="relurl">
+		<tr>
+			<th scope="col"><table id="pager">
+			[% nicknr = nickpage %]
+			[% endnick = nicknr * 5 %]
+			[% startnick = endnick - 4 %]
+			[% IF endnick > total_nick_rs %]
+				[% endnick = total_nick_rs %]
+			[% END %]
+				<tr>
+					<th>
+						Other Names - ([% startnick %]-[% endnick %] of [% total_nick_rs %])
+					</th>
+					<td>
+						<form action="[% c.uri_for_action('/role/profile', [role.id_role]) %]" method="post"><input type="text" name="nickpage" value="[% nickpage - 1 %]" style="display: none;" /><input type="submit" value="<" [% IF nickpage < 2 %]style="display: none;"[% END %]/></form>
+					</td>
+					<td>
+						<form action="[% c.uri_for_action('/role/profile', [role.id_role]) %]" method="post"><input type="text" name="nickpage" value="[% nickpage + 1 %]" style="display: none;" /><input type="submit" value=">"[% IF endnick == total_nick_rs %]style="display: none;"[% END %]/></form>
+					</td>
+					
+					
+				</tr>
+			</table></th>
+			<th scope="col">%</th>
+			<th scope="col">Hits</th>
+			<th scope="col"><div class="validation" style="display: inline;">✓</div></th>
+			<th scope="col">History</th>
+		</tr>
+		[% FOREACH res IN nick_res_nr.page(nickpage).all %]
+		[% IF res %]
+		<tr>
+			<td>
+				[% res.name %]
+			</td>
+			[% cert = get_certainty(res.id_nickname, 'n') %]
+			<td>[% cert.0 %]</td>
+			<td>[% cert.1 %]</td>
+			<td>
+			<div class="validation" style="display: inline;">
+				[% IF res.name_valid == 'v' %]
+					<img src="/static/images/check.png" alt="v" width="15px" />
+				[% ELSE %]
+					<img src="/static/images/cross.png" alt="x" width="15px" />
+				[% END %]
+				</div>
+			</td>
+			<td>
+				<INPUT TYPE=BUTTON onClick="return popup('[% c.uri_for_action('/nickname/history', [res.id_nickname]) %]',300,300);" VALUE="Show">
+			
+			</td>
+		</tr>
+	[% END %]
+	[% END %]
+	</table>
+</th>
+<td>
+	<table id="relurl">
+		<tr>
+			<th scope="col"><table id="pager">
+			[% relnr = relpage %]
+			[% endrel = relnr * 5 %]
+			[% startrel = endrel - 4 %]
+			[% IF endrel > total_rel_rs %]
+				[% endrel = total_rel_rs %]
+			[% END %]
+				<tr>
+					<th>
+						Related Link - ([% startrel %]-[% endrel %] of [% total_rel_rs %])
+					</th>
+					<td>
+						<form action="[% c.uri_for_action('/role/profile', [role.id_role]) %]" method="post"><input type="text" name="relpage" value="[% relpage - 1 %]" style="display: none;" /><input type="submit" value="<" [% IF relpage < 2 %]style="display: none;"[% END %]/></form>
+					</td>
+					<td>
+						<form action="[% c.uri_for_action('/role/profile', [role.id_role]) %]" method="post"><input type="text" name="relpage" value="[% relpage + 1 %]" style="display: none;" /><input type="submit" value=">"[% IF endrel == total_rel_rs %]style="display: none;"[% END %]/></form>
+					</td>
+					
+					
+				</tr>
+			</table></th>
+
+			<th scope="col">Accessed</th>
+			<th scope="col"><div class="validation" style="display: inline;">✓</div></th>
+		</tr>
+		[% FOREACH res IN rel_res_nr.page(relpage).all %]
+		[% IF res %]
+		<tr>
+		<td>
+				[% IF res.name.match('http://') %]
+					<a href="[% res.name %]">[% IF res.name.length > 30 %]
+					[% res.name.chunk(15).shift %](...)[% res.name.chunk(-10).pop %]
+				[% ELSE %]
+					[% res.name %]
+				[% END %]</a>
+				[% ELSE %]
+				[% IF res.name.match('www.') %]
+					<a href="[% 'http://' _ res.name %]">[% IF res.name.length > 30 %]
+					[% res.name.chunk(15).shift %](...)[% res.name.chunk(-10).pop %]
+				[% ELSE %]
+					[% res.name %]
+				[% END %]</a>
+				[% ELSE %]
+				[% IF res.name.length > 30 %]
+					[% res.name.chunk(15).shift %](...)[% res.name.chunk(-10).pop %]
+				[% ELSE %]
+					[% res.name %]
+				[% END %]
+				[% END %][% END %]
+			</td>
+			<td>
+				[% lmd = res.lastaccess.dmy('-') %]
+				[% lmh = res.lastaccess.hms('-') %]
+				[% lmd_array = lmd.split('-') %]
+				[% lmh_array = lmh.split('-') %]
+				[% year = lmd_array.pop %]
+				[% month = lmd_array.pop - 1 %]
+				[% day = lmd_array.pop %]
+				[% sec = lmh_array.pop %]
+				[% min = lmh_array.pop %]
+				[% hour = lmh_array.pop %]
+				[% time_converter(sec,min,hour,day,month,year) %]
+			</td>
+			<td>
+			<div class="validation" style="display: inline;">
+				[% IF res.name_valid == 'v' %]
+					<img src="/static/images/check.png" alt="v" width="15px" />
+				[% ELSE %]
+					<img src="/static/images/cross.png" alt="x" width="15px" />
+				[% END %]
+				</div>
+			</td>
+		</tr>
+	[% END %]
+	[% END %]
+	</table>
+</td>
+<td>
+<table id="relurl">
+	<tr>
+		<th scope="col"><table id="pager">
+			[% refnr = refpage %]
+			[% endref = refnr * 5 %]
+			[% startref = endref - 4 %]
+			[% IF endref > total_ref_rs %]
+				[% endref = total_ref_rs %]
+			[% END %]
+				<tr>
+					<th>
+						References - ([% startref %]-[% endref %] of [% total_ref_rs %])
+					</th>
+					<td>
+						<form action="[% c.uri_for_action('/role/profile', [role.id_role]) %]" method="post"><input type="text" name="refpage" value="[% refpage - 1 %]" style="display: none;" /><input type="submit" value="<" [% IF refpage < 2 %]style="display: none;"[% END %]/></form>
+					</td>
+					<td>
+						<form action="[% c.uri_for_action('/role/profile', [role.id_role]) %]" method="post"><input type="text" name="refpage" value="[% refpage + 1 %]" style="display: none;" /><input type="submit" value=">"[% IF endref == total_ref_rs %]style="display: none;"[% END %]/></form>
+					</td>
+					
+					
+				</tr>
+			</table></th>
+		<th scope="col"><div class="validation" style="display: inline;">✓</div></th>
+	</tr>
+	
+[% FOREACH res IN ref_res_nr.page(refpage).all %]
+[% IF res %]
+	<tr>
+		<td>
+		[% IF res.name.match('http://') %]
+			<a href="[% res.link %]">[% IF res.name.length > 30 %]
+					[% res.name.chunk(15).shift %](...)[% res.name.chunk(-10).pop %]
+				[% ELSE %]
+					[% res.name %]
+				[% END %]</a>
+		[% ELSE %]
+			[% IF res.name.match('www.') %]
+				<a href="[% 'http://' _ res.name %]">[% IF res.name.length > 30 %]
+					[% res.name.chunk(15).shift %](...)[% res.name.chunk(-10).pop %]
+				[% ELSE %]
+					[% res.name %]
+				[% END %]</a>
+			[% ELSE %]
+				[% res.name %]
+			[% END %]
+		[% END %]
+		</td>
+		<td>
+			<div class="validation" style="display: inline;">
+				[% IF res.name_valid == 'v' %]
+					<img src="/static/images/check.png" alt="v" width="15px" />
+				[% ELSE %]
+					<img src="/static/images/cross.png" alt="x" width="15px" />
+				[% END %]
+			</div>
+		</td>
+	</tr>
+[% END %]
+[% END %]
+</table>
+
+</td>
+</tr>
+</table>

@@ -1,0 +1,53 @@
+[2011/01/16 - 23:19] - validation of Person: Manuel Coelho
+[2011/01/16 - 23:19] - validation of Role: presidente do município local
+[2011/01/16 - 23:19] - validation of Organization: município local
+[2011/01/16 - 23:21] - validation of Person: Manuel Cajuda
+[2011/01/16 - 23:22] - validation of Role: treinador do Vitória de Guimarães
+[2011/01/16 - 23:27] - validation of Person: Paulo Futre
+[2011/01/16 - 23:27] - validation of Role: ex-director desportivo do Atlético Madrid
+[2011/01/16 - 23:27] - validation of Organization: Atlético Madrid
+[2011/01/16 - 23:33] - validation of Person: Laurentino Dias
+[2011/01/16 - 23:34] - validation of Role: secretário de Estado do Desporto
+[2011/01/16 - 23:38] - validation of Role: director para o futebol
+[2011/01/16 - 23:38] - validation of Person: Sá Pinto
+[2011/01/16 - 23:40] - validation of Person: Rui Reininho
+[2011/01/16 - 23:40] - validation of Role: vocalista dos GNR
+[2011/01/16 - 23:41] - validation of Person: José Ribeiro e Castro
+[2011/01/16 - 23:41] - validation of Role: ex-presidente do CDS-PP
+[2011/01/16 - 23:41] - validation of Organization: CDS-PP
+[2011/01/16 - 23:42] - validation of Person: Manuel Monteiro
+[2011/01/16 - 23:42] - validation of Role: presidente do PND
+[2011/01/16 - 23:43] - validation of Person: Marques Mendes
+[2011/01/16 - 23:44] - validation of Role: ex-líder social-democrata
+[2011/01/16 - 23:46] - validation of Person: Mário Crespo
+[2011/01/16 - 23:46] - validation of Role: jornalista da SIC
+[2011/01/16 - 23:50] - validation of Person: Yasser Arafat
+[2011/01/16 - 23:50] - validation of Person: Yasser Arafat
+[2011/01/16 - 23:50] - validation of Role: líder da Autoridade Palestiniana
+[2011/01/16 - 23:51] - validation of Organization: Autoridade Palestiniana
+[2011/01/16 - 23:51] - validation of Person: Shimon Peres
+[2011/01/16 - 23:52] - validation of Role: presidente de Israel
+[2011/01/16 - 23:52] - validation of Organization: Israel
+[2011/01/16 - 23:53] - validation of Person: Shimon Peres
+[2011/01/16 - 23:53] - validation of Person: Yasser Arafat
+[2011/01/16 - 23:56] - validation of Person: José Maria Neves
+[2011/01/16 - 23:56] - validation of Role: primeiro-ministro de Cabo Verde
+[2011/01/16 - 23:56] - validation of Organization: Cabo Verde
+[2011/01/17 - 00:01] - validation of Person: Luca di Montezemolo
+[2011/01/17 - 00:01] - validation of Role: presidente da Ferrari
+[2011/01/17 - 00:01] - validation of Organization: Ferrari
+[2011/01/17 - 00:02] - validation of Person: Stefano Domenicali
+[2011/01/17 - 00:02] - validation of Role: director desportivo da Ferrari
+[2011/01/17 - 00:03] - validation of Organization: Ferrari
+[2011/01/17 - 00:05] - validation of Person: Jenson Button
+[2011/01/17 - 00:06] - validation of Role: líder do Mundial
+[2011/01/17 - 00:07] - validation of Person: Lewis Hamilton
+[2011/01/17 - 00:08] - validation of Person: Steve Mclaren
+[2011/01/17 - 00:08] - validation of Role: treinador do Twente
+[2011/01/17 - 00:09] - validation of Organization: Twente
+[2011/01/17 - 00:14] - validation of Person: Sepp Blatter
+[2011/01/17 - 00:14] - validation of Role: presidente da FIFA
+[2011/01/17 - 00:19] - validation of Person: Benjamin Netanyahu
+[2011/01/17 - 00:20] - validation of Role: primeiro-ministro israelita
+[2011/01/17 - 00:20] - validation of Organization: Israel
+[2011/01/17 - 00:21] - validation of Person: Benjamin Netanyahu

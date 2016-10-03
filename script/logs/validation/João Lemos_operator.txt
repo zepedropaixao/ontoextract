@@ -1,0 +1,45 @@
+[2011/01/16 - 18:31] - validation of Person: Luís Pardal
+[2011/01/16 - 18:32] - validation of Role: presidente da REFER
+[2011/01/16 - 18:32] - validation of Organization: REFER
+[2011/01/16 - 18:34] - validation of Person: Fernando Pinto
+[2011/01/16 - 18:34] - validation of Role: presidente da TAP
+[2011/01/16 - 18:34] - validation of Organization: transportadora aérea portuguesa TAP
+[2011/01/16 - 18:36] - validation of Person: António Cipriano
+[2011/01/16 - 18:36] - validation of Role: deputado do PSD
+[2011/01/16 - 18:37] - validation of Person: Estanislau Costa
+[2011/01/16 - 18:37] - validation of Role: presidente dos CTT
+[2011/01/16 - 18:39] - validation of Person: Fernando Mendonça
+[2011/01/16 - 18:39] - validation of Role: Delegado de Saúde do Algarve
+[2011/01/16 - 18:40] - validation of Organization: Algarve
+[2011/01/16 - 18:44] - validation of Person: Zé Pedro
+[2011/01/16 - 18:44] - validation of Role: guitarrista dos Xutos e Pontapés
+[2011/01/16 - 18:44] - validation of Organization: Xutos e Pontapés
+[2011/01/16 - 18:47] - validation of Person: Guilherme Pinto
+[2011/01/16 - 18:50] - validation of Person: José Ferreira
+[2011/01/16 - 18:50] - validation of Role: director-geral da Naval
+[2011/01/16 - 18:50] - validation of Organization: Naval
+[2011/01/16 - 18:51] - validation of Person: João Lobo Antunes
+[2011/01/16 - 18:52] - validation of Role: mandatário nacional
+[2011/01/16 - 18:56] - validation of Person: José Eduardo Moniz
+[2011/01/16 - 18:57] - validation of Role: director-geral da TVI
+[2011/01/16 - 18:59] - validation of Person: José Miguel Insulza
+[2011/01/16 - 18:59] - validation of Role: secretário-geral da OEA
+[2011/01/16 - 19:01] - validation of Person: Anders Fogh Rasmussen
+[2011/01/16 - 19:01] - validation of Role: secretário geral da NATO
+[2011/01/16 - 19:07] - validation of Person: Mary McAleese
+[2011/01/16 - 19:07] - validation of Role: Presidente da República da Irlanda
+[2011/01/16 - 19:07] - validation of Organization: Irlanda
+[2011/01/16 - 19:08] - validation of Person: Tony Blair
+[2011/01/16 - 19:10] - validation of Person: Gordon Brown
+[2011/01/16 - 19:10] - validation of Role: primeiro-ministro britânico
+[2011/01/16 - 19:13] - validation of Person: Abdullah Gul
+[2011/01/16 - 19:15] - validation of Person: Jacob Zuma
+[2011/01/16 - 19:15] - validation of Role: Presidente da África do Sul
+[2011/01/16 - 19:17] - validation of Person: Abdelaziz Bouteflika
+[2011/01/16 - 19:17] - validation of Role: chefe de Estado argelino
+[2011/01/16 - 19:17] - validation of Organization: Estado argelino
+[2011/01/16 - 19:21] - validation of Person: Evo Morales
+[2011/01/16 - 19:21] - validation of Role: Presidente da Bolívia
+[2011/01/16 - 19:21] - validation of Organization: Bolívia
+[2011/01/16 - 19:23] - validation of Person: Néstor Kirchner
+[2011/01/16 - 19:24] - validation of Role: secretário-geral da União de Nações da América do Sul

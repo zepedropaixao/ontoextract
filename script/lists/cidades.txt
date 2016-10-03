@@ -1,0 +1,155 @@
+agualva
+albufeira
+alcobaça
+almada
+almeirim
+alverca do ribatejo
+amadora
+amora
+amsterdão
+angra do heroísmo
+atenas
+auckland
+aveiro
+barcelona
+barreiro
+batalha
+beja
+berlim
+berna
+braga
+bragança
+bruxelas
+budapeste
+buenos aires
+cabo
+cacém
+cairo
+caldas da rainha
+cantanhede
+cascais
+castelo branco
+castelo do bode
+chaves
+coimbra
+colonia
+copenhaga
+costa da caparica
+covilhã
+câmara de lobos
+dili
+dublin
+ermesinde
+esmoriz
+espinho
+estocolmo
+faro
+felgueiras
+ferragudo
+figueira da foz
+funchal
+fátima
+gafanha da nazaré
+gandra
+gondomar
+gouveia
+guarda
+guimarães
+hanoi
+helsínquia
+jacarta
+lagoa
+lagos
+lamego
+leiria
+lima
+linhares
+lisboa
+lixa
+londres
+los angeles
+loulé
+loures
+luanda
+madrid
+maia
+maputo
+marco de canaveses
+marraquexe
+marvão
+matosinhos
+mealhada
+miami
+milão
+mirandela
+montemor-o-velho
+moscovo
+méxico
+mêda
+napoles
+nazaré
+nova iorque
+olhão
+oliveira do hospital
+oslo
+ovar
+paredes
+paris
+paços de ferreira
+penacova
+penafiel
+peniche
+pequim
+peso da régua
+pinhel
+pombal
+ponta delgada
+port au prince
+portalegre
+portimão
+porto
+póvoa de santa iria
+póvoa de varzim
+quarteira
+queluz
+quinta dos louridos
+rebordosa
+rio de janeiro
+roma
+sabugal
+sacavém
+salzburgo
+san diego
+san francisco
+santa comba dão
+santa maria da feira
+santana
+santo andré
+santo domingo
+santo tirso
+seia
+setúbal
+sidney
+silves
+sines
+sintra
+são pedro de penaferrim
+tarouca
+tavira
+tomar
+toquio
+torres vedras
+trancoso
+trofa
+valbom
+viana do castelo
+viena
+vila nova de foz côa
+vila nova de gaia
+vila real
+vila real de santo antónio
+vila do conde
+viseu
+wellington
+xangai
+Évora

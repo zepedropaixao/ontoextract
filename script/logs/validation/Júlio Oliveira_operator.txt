@@ -1,0 +1,57 @@
+[2011/01/16 - 23:14] - validation of Person: Henry Kissinger
+[2011/01/16 - 23:14] - validation of Role: secretário de Estado
+[2011/01/16 - 23:14] - validation of Organization: Estado
+[2011/01/16 - 23:20] - validation of Person: Marinho Pinto
+[2011/01/16 - 23:28] - validation of Person: Carlos Bianchi de Aguiar
+[2011/01/16 - 23:29] - validation of Role: presidente executivo da Sonae Indústria
+[2011/01/16 - 23:29] - validation of Organization: Sonae Indústria
+[2011/01/16 - 23:33] - validation of Person: Manuel Clemente
+[2011/01/16 - 23:33] - validation of Role: Bispo do Porto
+[2011/01/16 - 23:42] - validation of Person: Paulo Teixeira Pinto
+[2011/01/16 - 23:43] - validation of Role: presidente da APEL
+[2011/01/16 - 23:43] - validation of Role: presidente da Causa Real
+[2011/01/16 - 23:44] - validation of Role: presidente do grupo editorial Babel
+[2011/01/16 - 23:44] - validation of Organization: Causa Real
+[2011/01/16 - 23:45] - validation of Organization: grupo editorial Babel
+[2011/01/16 - 23:48] - validation of Person: Ernâni Lopes
+[2011/01/16 - 23:48] - validation of Role: economista e ex-ministro das Finanças
+[2011/01/16 - 23:49] - validation of Organization: Finanças
+[2011/01/16 - 23:50] - validation of Person: Daniel Bessa
+[2011/01/16 - 23:50] - validation of Role: director da Cotec Portugal
+[2011/01/16 - 23:57] - validation of Person: Axel Weber
+[2011/01/16 - 23:57] - validation of Role: presidente do Bundesbank
+[2011/01/16 - 23:58] - validation of Person: António Saraiva
+[2011/01/16 - 23:58] - validation of Role: presidente da CIP
+[2011/01/17 - 00:04] - validation of Person: Faouzi Benzarti
+[2011/01/17 - 00:04] - validation of Role: técnico da Tunísia
+[2011/01/17 - 00:05] - validation of Organization: Tunísia
+[2011/01/17 - 00:06] - validation of Person: Harry Reid
+[2011/01/17 - 00:06] - validation of Role: líder da maioria democrata no Senado
+[2011/01/17 - 00:07] - validation of Organization: maioria democrata no Senado
+[2011/01/17 - 00:10] - validation of Person: Almeida Santos
+[2011/01/17 - 00:11] - validation of Role: ex-presidente da Assembleia da República
+[2011/01/17 - 00:11] - validation of Organization: República
+[2011/01/17 - 00:14] - validation of Person: Alexandre Relvas
+[2011/01/17 - 00:14] - validation of Role: presidente do Instituto Francisco Sá Carneiro
+[2011/01/17 - 00:18] - validation of Person: António Serrano
+[2011/01/17 - 00:20] - validation of Person: Felix Fischer
+[2011/01/17 - 00:21] - validation of Role: representante do FMI em Maputo
+[2011/01/17 - 00:21] - validation of Organization: FMI em Maputo
+[2011/01/17 - 00:23] - validation of Person: José Luís Pinto Ramalho
+[2011/01/17 - 00:23] - validation of Role: Chefe de Estado-Maior do Exército
+[2011/01/17 - 00:23] - validation of Organization: Exército
+[2011/01/17 - 00:28] - validation of Person: Riccardo Pacifici
+[2011/01/17 - 00:28] - validation of Role: líder da comunidade judaica
+[2011/01/17 - 00:28] - validation of Role: líder da comunidade judaica
+[2011/01/17 - 00:28] - validation of Organization: comunidade judaica
+[2011/01/17 - 00:29] - validation of Person: Bill Richardson
+[2011/01/17 - 00:30] - validation of Role: governador do estado do Novo México
+[2011/01/17 - 00:30] - validation of Organization: Novo México
+[2011/01/17 - 00:30] - validation of Person: Ronald Godard
+[2011/01/17 - 00:31] - validation of Role: embaixador norte-americano na ONU
+[2011/01/17 - 00:36] - validation of Person: Job Cohen
+[2011/01/17 - 00:36] - validation of Organization: Amesterdão
+[2011/01/17 - 00:36] - validation of Role: presidente da câmara de Amesterdão
+[2011/01/17 - 00:40] - validation of Person: Kevin-Prince Boateng
+[2011/01/17 - 00:40] - validation of Role: médio do Portsmouth
+[2011/01/17 - 00:41] - validation of Organization: Portsmouth

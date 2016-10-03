@@ -1,0 +1,50 @@
+[2011/01/15 - 04:59] - validation of Person: Luís Filipe Menezes
+[2011/01/15 - 05:00] - validation of Role: presidente da Câmara
+[2011/01/15 - 05:02] - validation of Person: António de Oliveira Salazar
+[2011/01/15 - 05:02] - validation of Role: chefe do Governo
+[2011/01/15 - 05:03] - validation of Organization: governo
+[2011/01/15 - 05:04] - validation of Person: Rui Rio
+[2011/01/15 - 05:04] - validation of Role: presidente da câmara
+[2011/01/15 - 05:04] - validation of Organization: Câmara
+[2011/01/15 - 05:06] - validation of Person: Alberto João Jardim
+[2011/01/15 - 05:08] - validation of Person: Pedro Passos Coelho
+[2011/01/15 - 05:09] - validation of Role: presidente do PSD
+[2011/01/15 - 05:10] - validation of Person: Francisco Louçã
+[2011/01/15 - 05:10] - validation of Role: líder do Bloco de Esquerda
+[2011/01/15 - 05:11] - validation of Person: Jerónimo de Sousa
+[2011/01/15 - 05:13] - validation of Person: Pinto da Costa
+[2011/01/15 - 05:15] - validation of Person: Luís Filipe Vieira
+[2011/01/15 - 05:17] - validation of Person: José Eduardo Bettencourt
+[2011/01/15 - 05:17] - validation of Role: presidente do Sporting
+[2011/01/15 - 05:17] - validation of Organization: Sporting
+[2011/01/15 - 05:19] - validation of Role: líder parlamentar do PCP
+[2011/01/15 - 05:21] - validation of Organization: FC Porto
+[2011/01/15 - 05:21] - validation of Role: presidente do Benfica
+[2011/01/15 - 05:22] - validation of Organization: Benfica
+[2011/01/15 - 05:24] - validation of Person: José Luis Rodríguez Zapatero
+[2011/01/15 - 05:25] - validation of Role: Primeiro-ministro espanhol
+[2011/01/15 - 05:27] - validation of Person: Arnold Schwarzenegger
+[2011/01/15 - 05:27] - validation of Role: governador da Califórnia
+[2011/01/15 - 05:28] - validation of Organization: Califórnia
+[2011/01/15 - 05:33] - validation of Person: Mark Zuckerberg
+[2011/01/15 - 05:34] - validation of Role: fundador e diretor geral do Facebook
+[2011/01/15 - 05:34] - validation of Organization: Facebook
+[2011/01/15 - 05:35] - validation of Person: Hugo Chávez
+[2011/01/15 - 05:36] - validation of Role: Presidente da Venezuela
+[2011/01/15 - 05:37] - validation of Organization: Venezuela
+[2011/01/15 - 05:37] - validation of Person: Lionel Messi
+[2011/01/15 - 05:38] - validation of Organization: seleção alviceleste
+[2011/01/15 - 05:38] - validation of Role: principal estrela da seleção alviceleste
+[2011/01/15 - 05:39] - validation of Person: Bento XVI
+[2011/01/15 - 05:39] - validation of Role: chefe da Igreja Católica Romana
+[2011/01/15 - 05:39] - validation of Organization: Igreja Católica Romana
+[2011/01/15 - 05:40] - validation of Person: Franz Beckenbauer
+[2011/01/15 - 05:40] - validation of Role: presidente do Bayern
+[2011/01/15 - 05:41] - validation of Organization: Bayern
+[2011/01/15 - 05:42] - validation of Person: Fidel Castro
+[2011/01/15 - 05:42] - validation of Role: fundador do regime comunista cubano
+[2011/01/15 - 05:42] - validation of Organization: regime comunista cubano
+[2011/01/15 - 05:44] - validation of Person: Angela Merkel
+[2011/01/15 - 05:45] - validation of Role: Chanceler alemã
+[2011/01/15 - 05:45] - validation of Person: Roman Abramovich
+[2011/01/15 - 05:46] - validation of Organization: clube inglês

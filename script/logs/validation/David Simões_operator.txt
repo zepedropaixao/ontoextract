@@ -1,0 +1,31 @@
+[2011/01/15 - 18:04] - validation of Person: Manuela Moura Guedes
+[2011/01/15 - 18:05] - validation of Role: jornalista da TVI
+[2011/01/15 - 18:10] - validation of Person: Nuno Crato
+[2011/01/15 - 18:22] - validation of Person: José Rodrigues dos Santos
+[2011/01/15 - 18:23] - validation of Role: autor que mais livros vende em Portugal
+[2011/01/15 - 18:29] - validation of Person: João Moutinho
+[2011/01/15 - 18:36] - validation of Person: Pablo Pineda
+[2011/01/15 - 18:36] - validation of Role: actor
+[2011/01/15 - 18:37] - validation of Person: Jesualdo Ferreira
+[2011/01/15 - 18:58] - validation of Person: José Mourinho
+[2011/01/15 - 18:59] - validation of Role: técnico do Real Madrid
+[2011/01/15 - 19:00] - validation of Person: Frederico GIl
+[2011/01/15 - 19:01] - validation of Role: tenista português
+[2011/01/15 - 19:06] - validation of Person: Sarah Palin
+[2011/01/15 - 19:06] - validation of Person: Sarah Palin
+[2011/01/15 - 19:15] - validation of Person: Maria João
+[2011/01/15 - 19:22] - validation of Person: Jorge Sampaio
+[2011/01/15 - 19:23] - validation of Person: José Luís Guterres
+[2011/01/15 - 19:26] - validation of Person: Cláudia Vieira
+[2011/01/15 - 19:27] - validation of Person: Bill Clinton
+[2011/01/15 - 19:30] - validation of Person: Steve Jobs
+[2011/01/15 - 19:30] - validation of Role: presidente executivo da Apple
+[2011/01/15 - 19:35] - validation of Person: Kim Jong
+[2011/01/15 - 19:35] - validation of Role: presidente da Coreia do Norte
+[2011/01/15 - 19:44] - validation of Person: Alan Ball
+[2011/01/15 - 19:46] - validation of Person: Arnaldo Otegi
+[2011/01/15 - 19:46] - validation of Role: porta-voz do Batasuna
+[2011/01/15 - 19:48] - validation of Person: Jim DeMint
+[2011/01/15 - 19:48] - validation of Role: senador republicano da Carolina do Sul
+[2011/01/15 - 19:49] - validation of Person: Jim Flaherty
+[2011/01/15 - 19:49] - validation of Role: ministro das Finanças canadiano
